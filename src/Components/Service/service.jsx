@@ -20,17 +20,17 @@ function ServiceSection() {
                     </span>
 
                     <h2 className="text-4xl md:text-5xl font-black text-white leading-tight mb-6">
-                        Professional Car Audio <br />
+                        Advanced Car Audio  <br />
                         <span className="text-[#EF993A]">
-                            Installation Services
+                            Customization Solutions
                         </span>
                     </h2>
 
                     <p className="max-w-3xl mx-auto text-gray-400 text-lg leading-relaxed">
-                        PROMAX provides expert car audio installation and tuning
-                        services for all types of vehicles. Our technicians ensure
-                        clean wiring, premium sound output, and professional
-                        finishing for every setup.
+                        PROMAX delivers premium automotive audio customization services with 
+                        expert tuning, precision wiring, clean installations, and enhanced 
+                        sound solutions designed for superior driving experiences.
+
                     </p>
 
                 </div>
@@ -74,15 +74,14 @@ function ServiceSection() {
                             </h3>
 
                             <p className="text-gray-400 leading-relaxed text-[15px] mb-8">
-                                Balanced audio setup with component speakers and
-                                optimized sound clarity for smooth everyday driving
-                                and enhanced in-car entertainment.
+                                Premium speaker systems with balanced sound tuning designed for
+                                smooth music clarity and enhanced everyday driving entertainment experiences.
                             </p>
 
                             <div className="flex items-center justify-between pt-6 border-t border-white/10">
 
                                 <span className="text-[#EF993A] font-semibold">
-                                    Premium Sound
+                                    Premium Audio
                                 </span>
 {/* 
                                 <button className="w-12 h-12 border border-[#EF993A]/30 flex items-center justify-center text-[#EF993A] bg-[#EF993A]/10 transition-all duration-300 hover:bg-[#EF993A] hover:text-white">
@@ -131,15 +130,14 @@ function ServiceSection() {
                             </h3>
 
                             <p className="text-gray-400 leading-relaxed text-[15px] mb-8">
-                                Advanced premium sound staging with dedicated
-                                tweeters, mid-range, and bass response for immersive
-                                audiophile-level performance.
+                                Advanced sound staging with dedicated tweeters, mid-range speakers, 
+                                and deep bass performance for immersive in-car audio experiences.
                             </p>
 
                             <div className="flex items-center justify-between pt-6 border-t border-white/10">
 
                                 <span className="text-[#EF993A] font-semibold">
-                                    Advanced Audio
+                                    Advanced Sound
                                 </span>
 
                                 {/* <button className="w-12 h-12 border border-[#EF993A]/30 flex items-center justify-center text-[#EF993A] bg-[#EF993A]/10 transition-all duration-300 hover:bg-[#EF993A] hover:text-white">
@@ -188,15 +186,14 @@ function ServiceSection() {
                             </h3>
 
                             <p className="text-gray-400 leading-relaxed text-[15px] mb-8">
-                                Professional amplifier installation, DSP tuning,
-                                subwoofer setup, speaker upgrades, and customized
-                                sound systems for premium output.
+                                Professional amplifier fitting, DSP tuning, subwoofer installation,
+                                 speaker upgrades, and customized audio solutions for premium sound performance.
                             </p>
 
                             <div className="flex items-center justify-between pt-6 border-t border-white/10">
 
                                 <span className="text-[#EF993A] font-semibold">
-                                    Full Installation
+                                    Expert Installation
                                 </span>
 
                                 {/* <button className="w-12 h-12 border border-[#EF993A]/30 flex items-center justify-center text-[#EF993A] bg-[#EF993A]/10 transition-all duration-300 hover:bg-[#EF993A] hover:text-white">

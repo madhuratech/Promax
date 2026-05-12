@@ -27,7 +27,7 @@ const ContactHero = () => {
 
                         {/* HEADING */}
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight">
-                            Contact
+                            Reach
                             <span className="block text-[#EF993A]">
                                 PROMAX
                             </span>
@@ -35,10 +35,9 @@ const ContactHero = () => {
 
                         {/* DESCRIPTION */}
                         <p className="mt-7 text-gray-400 text-lg leading-relaxed max-w-2xl">
-                            Upgrade your driving experience with premium car
-                            audio systems, Android players, ambient lighting,
-                            seat covers, detailing, and expert installation
-                            services from PROMAX Car Accessories.
+                            Drive confidently with premium car accessories, Android systems,
+                             ambient lighting, seat covers, detailing solutions, and expert installations 
+                             that enhance comfort, style, and performance.
                         </p>
 
                         {/* ACTION BUTTONS */}
@@ -108,12 +107,12 @@ const ContactHero = () => {
                             {/* CARD TOP */}
                             <div className="mb-10">
                                 <h2 className="text-3xl font-bold">
-                                    Get In Touch
+                                    Contact Our Experts
                                 </h2>
 
                                 <p className="text-gray-400 mt-3 leading-relaxed">
-                                    We’re here to help you choose the perfect
-                                    accessories and audio setup for your car.
+                                    Connect with our team for premium car accessories,
+                                    detailing, audio upgrades, and professional installation services.
                                 </p>
                             </div>
 

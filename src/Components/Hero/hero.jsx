@@ -40,16 +40,16 @@ export default function HeroSection() {
 
                     {/* HEADING */}
                     <h1 className="mb-6 text-5xl font-black leading-tight text-white md:text-7xl">
-                        Upgrade Your
-                        <span className="text-[#EF993A]"> Driving </span>
-                        Experience
+                        Trusted Experts
+                        <span className="text-[#EF993A]"> In Car  </span>
+                        Accessories
                     </h1>
 
                     {/* DESCRIPTION */}
                     <p className="mb-10 max-w-2xl text-lg leading-relaxed text-gray-200">
-                        Discover premium car accessories crafted for performance,
-                        comfort, and luxury. Upgrade your vehicle with stylish
-                        automotive essentials designed for every journey.
+                        We deliver premium automotive upgrades including Android players, audio systems, 
+                        ambient lighting, reverse cameras, detailing, and professional customization services 
+                        for every car enthusiast.
                     </p>
 
                     {/* BUTTON */}

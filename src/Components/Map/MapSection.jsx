@@ -13,13 +13,13 @@ const MapSection = () => {
                         </p>
 
                         <h2 className="text-4xl md:text-5xl font-bold text-[#111111] leading-tight mb-6">
-                            Visit PROMAX Car Accessories
+                            Upgrade Your Ride with PROMAX
                         </h2>
 
                         <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                            Discover premium car accessories, advanced audio systems,
-                            ambient lighting, detailing solutions, and professional
-                            installation services at PROMAX.
+                            Explore premium car accessories, entertainment systems, 
+                            lighting upgrades, detailing, and expert installations 
+                            enhancing comfort, style, and performance.
                         </p>
 
                         {/* INFO CARDS */}

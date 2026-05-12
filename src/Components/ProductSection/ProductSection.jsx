@@ -50,6 +50,7 @@ const products = [
   {
     title: "Car Audio Systems",
     icon: <FaVolumeUp />,
+    heading:"Advanced Automative Accessories",
     description:
       "Experience immersive in-car entertainment with premium audio systems engineered for crystal-clear sound and deep bass performance.",
 
@@ -87,6 +88,7 @@ const products = [
   {
     title: "Seat Covers",
     icon: <FaChair />,
+    heading:"Advanced Automative Accessories",
     description:
       "Premium seat covers crafted for luxury interiors, maximum comfort, and long-lasting durability.",
 
@@ -162,6 +164,7 @@ const products = [
   {
     title: "Car Mats",
     icon: <MdDashboardCustomize />,
+    heading: "Advanced Automotive Accessories",
     description:
       "Protect your car interiors with elegant, waterproof, and durable floor mat collections.",
 
@@ -197,6 +200,7 @@ const products = [
   {
     title: "Sun Films",
     icon: <MdOutlineWbSunny />,
+    heading:"Advanced Automative Accessories",
     description:
       "Heat-resistant sun films providing privacy, UV protection, and stylish appearance for vehicles.",
 
@@ -232,6 +236,7 @@ const products = [
   {
     title: "Reverse Cameras",
     icon: <FaCamera />,
+    heading:"Advanced Automative Accessories",
     description:
       "Advanced reverse parking systems designed for safer, smarter, and easier driving experience.",
 
@@ -339,10 +344,7 @@ const ProductSection = () => {
                   </span>
 
                   <h2 className="text-2xl sm:text-3xl lg:text-5xl font-black text-gray-900 mt-3 leading-tight">
-                    Premium Automotive
-                    <span className="block text-[#EF993A]">
-                      Accessories
-                    </span>
+                   {product.heading}
                   </h2>
 
                   <div className="w-20 h-[3px] bg-[#EF993A] mt-6 mb-6"></div>

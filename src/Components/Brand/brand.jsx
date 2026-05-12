@@ -42,22 +42,22 @@ const features = [
   {
     icon: ShieldCheck,
     title: "100% Original Products",
-    desc: "Imported premium audio systems from trusted global brands.",
+    desc: "Authentic automotive accessories built for quality and long-lasting durability.",
   },
   {
     icon: AudioWaveform,
     title: "Studio Quality Sound",
-    desc: "Experience crystal-clear vocals and deep bass performance.",
+    desc: "Clear balanced audio delivering immersive sound throughout every drive.",
   },
   {
     icon: Sparkles,
     title: "Professional Installation",
-    desc: "Advanced wiring and clean fitting by expert technicians.",
+    desc: "Expert technicians ensure accurate fittings with smooth professional finishing.",
   },
   {
     icon: BadgeCheck,
     title: "Premium Brand Collection",
-    desc: "14+ international audio brands available.",
+    desc: "Trusted global brands for premium performance.",
   },
 ];
 
@@ -89,15 +89,14 @@ export default function AudioBrandsSection() {
 
             {/* HEADING */}
             <h2 className="text-4xl md:text-6xl font-black text-gray-900 leading-tight">
-              Premium Car Audio <br />
-              & Accessory Brands
+             Top International <br />
+              Audio Brands
             </h2>
 
             {/* DESCRIPTION */}
             <p className="text-gray-600 text-lg mt-6 leading-relaxed max-w-2xl">
-              We offer original products from leading international car audio
-              and accessory brands known for superior sound quality,
-              durability, and performance.
+              We provide premium automotive audio products from trusted global brands 
+              known for performance, sound clarity, durability, and advanced technology.
             </p>
 
             {/* BUTTON */}
@@ -132,7 +131,7 @@ export default function AudioBrandsSection() {
                   </p>
 
                   <h3 className="text-3xl font-black text-gray-900 mt-3">
-                    Premium Audio Experience
+                    Premium Brand Collection
                   </h3>
                 </div>
 
@@ -218,14 +217,12 @@ export default function AudioBrandsSection() {
 
           <div className="relative z-10">
             <h3 className="text-3xl md:text-4xl font-black text-white leading-tight">
-              Trusted International <br />
-              Audio Brands
+              Experience World-Class Car Audio Brands
             </h3>
 
             <p className="text-white/90 mt-4 max-w-2xl text-lg leading-relaxed">
-              Experience crystal-clear sound, powerful bass, and premium
-              in-car entertainment with professionally installed branded
-              audio systems from PROMAX Car Accessories.
+              Discover premium automotive audio brands offering powerful sound, advanced features,
+              crystal-clear clarity, and immersive entertainment for every driving experience.
             </p>
           </div>
 

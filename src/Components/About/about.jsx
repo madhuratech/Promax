@@ -46,17 +46,16 @@ function AboutSection() {
                                 </p>
 
                                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 leading-snug mb-4">
-                                    About PROMAX <br />
-                                    Car Accessories
+                                    Passion Driven Car <br />
+                                    Customization Experts
                                 </h2>
 
                                 <div className="w-16 h-1 bg-[#EF993A] mb-5"></div>
 
                                 <p className="text-gray-600 text-sm leading-7">
-                                    Premium car accessories, advanced audio systems,
-                                    branded speakers, seat covers, reverse cameras,
-                                    floor mats, and complete interior upgrades designed
-                                    for comfort, style, and performance.
+                                    We provide premium automotive accessories, advanced
+                                    entertainment systems, interior customization, detailing services, 
+                                    and car audio system in Coimbatore designed for comfort, style, and performance.
                                 </p>
                             </div>
                         </div>
@@ -70,26 +69,23 @@ function AboutSection() {
                         </p>
 
                         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
-                            Trusted Experts in <br className="hidden sm:block" />
-                            Car Audio & Accessories
+                            Trusted Experts in Premium  <br className="hidden sm:block" />
+                            Car Customization Solutions
                         </h2>
 
                         <div className="w-20 sm:w-24 h-1 bg-[#EF993A] mb-8 mx-auto lg:mx-0"></div>
 
                         <p className="text-gray-600 leading-7 sm:leading-8 mb-6 text-sm sm:text-base">
-                            PROMAX Car Accessories is a trusted destination for
-                            premium car accessories, advanced car audio systems,
-                            and professional installation services in Tamil Nadu.
-                            We specialize in branded speaker systems, customized
-                            audio setups, seat covers, floor mats, reverse cameras,
-                            sun control films, and complete car interior upgrades.
+                            We are the trusted destination for premium car accessories in Coimbatore and
+                            professional car customization services. We specialize in high-quality speaker 
+                            installations, Android infotainment systems, seat covers, floor mats, reverse cameras,
+                            ambient lighting, sun control films, and complete interior enhancements.
                         </p>
 
                         <p className="text-gray-600 leading-7 sm:leading-8 mb-10 text-sm sm:text-base">
-                            Our expert team provides high-quality 2-way and 3-way
-                            audio tuning solutions using top international brands
-                            like Alpine, Morel, Pioneer, Sony, JBL, Kenwood,
-                            DD Audio, Focal, Cadence, and more.
+                            Our experienced team delivers customized audio tuning and installation solutions 
+                            using leading international brands including Alpine, Pioneer, Sony, JBL, Kenwood, 
+                            Focal, Morel, DD Audio, and other premium automotive audio products.
                         </p>
 
                         {/* FEATURES */}
@@ -97,21 +93,21 @@ function AboutSection() {
 
                             <div className="bg-white p-5 sm:p-6 shadow-lg border-l-4 border-[#EF993A] text-left">
                                 <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-900">
-                                    Premium Brands
+                                    Premium Products
                                 </h3>
 
                                 <p className="text-gray-600 text-sm leading-6">
-                                    We work with trusted international audio and accessory brands.
+                                    We offer reliable automotive accessories from leading global audio and customization brands.
                                 </p>
                             </div>
 
                             <div className="bg-white p-5 sm:p-6 shadow-lg border-l-4 border-[#EF993A] text-left">
                                 <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-900">
-                                    Professional Installation
+                                    Expert Installation
                                 </h3>
 
                                 <p className="text-gray-600 text-sm leading-6">
-                                    Expert fitting services for a clean and perfect finish.
+                                    Professional fitting solutions delivered with precision, quality, and attention to every detail.
                                 </p>
                             </div>
 
