@@ -8,7 +8,7 @@ export default defineConfig({
     tailwindcss(),
     
   ],
-  base: '/Promax/'
+  base: '/'
 
   
 
