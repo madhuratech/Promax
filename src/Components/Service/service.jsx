@@ -4,7 +4,7 @@ import AudioInstallation from "../../assets/Service/AudioInstallation.jpg";
 
 function ServiceSection() {
     return (
-        <section className="relative bg-[#0F0F0F] py-24 px-6 md:px-12 overflow-hidden">
+        <section className="relative bg-[#0F0F0F] py-24 px-6 md:px-12 overflow-hidden" id="services">
 
             {/* Background Glow */}
             <div className="absolute top-0 left-0 w-[450px] h-[450px] bg-[#EF993A]/10 rounded-full blur-3xl"></div>
@@ -84,10 +84,10 @@ function ServiceSection() {
                                 <span className="text-[#EF993A] font-semibold">
                                     Premium Sound
                                 </span>
-
+{/* 
                                 <button className="w-12 h-12 border border-[#EF993A]/30 flex items-center justify-center text-[#EF993A] bg-[#EF993A]/10 transition-all duration-300 hover:bg-[#EF993A] hover:text-white">
                                     →
-                                </button>
+                                </button> */}
 
                             </div>
 
@@ -142,9 +142,9 @@ function ServiceSection() {
                                     Advanced Audio
                                 </span>
 
-                                <button className="w-12 h-12 border border-[#EF993A]/30 flex items-center justify-center text-[#EF993A] bg-[#EF993A]/10 transition-all duration-300 hover:bg-[#EF993A] hover:text-white">
+                                {/* <button className="w-12 h-12 border border-[#EF993A]/30 flex items-center justify-center text-[#EF993A] bg-[#EF993A]/10 transition-all duration-300 hover:bg-[#EF993A] hover:text-white">
                                     →
-                                </button>
+                                </button> */}
 
                             </div>
 
@@ -199,9 +199,9 @@ function ServiceSection() {
                                     Full Installation
                                 </span>
 
-                                <button className="w-12 h-12 border border-[#EF993A]/30 flex items-center justify-center text-[#EF993A] bg-[#EF993A]/10 transition-all duration-300 hover:bg-[#EF993A] hover:text-white">
+                                {/* <button className="w-12 h-12 border border-[#EF993A]/30 flex items-center justify-center text-[#EF993A] bg-[#EF993A]/10 transition-all duration-300 hover:bg-[#EF993A] hover:text-white">
                                     →
-                                </button>
+                                </button> */}
 
                             </div>
 

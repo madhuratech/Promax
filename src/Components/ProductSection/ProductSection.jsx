@@ -1,8 +1,7 @@
-import { useState } from "react";
 import {
   FaVolumeUp,
   FaChair,
-  FaCompactDisc,
+  // FaCompactDisc,
   FaCamera,
 } from "react-icons/fa";
 
@@ -11,36 +10,76 @@ import {
   MdOutlineWbSunny,
 } from "react-icons/md";
 
+// Car Audio Systems
+import Mainaudio from "../../assets/Audio/Mainaudio.jpg"
+import Amplifier from "../../assets/Audio/Amplifier.jpg"
+import DSP from "../../assets/Audio/DSP.jpg"
+import Subwoofers from "../../assets/Audio/Subwoofers.jpg"
+import Tweeters from "../../assets/Audio/Tweeters.jpg"
+
+// Seat Covers
+import Seat from "../../assets/SeatCovers/Seat.jpg"
+import Leather from "../../assets/SeatCovers/Leather.jpg"
+import Luxury from "../../assets/SeatCovers/Luxury.jpg"
+import Cuisine from "../../assets/SeatCovers/Cuisine.jpg"
+import Custom from "../../assets/SeatCovers/Custom.jpg"
+
+// Car Mats
+import CarMats from "../../assets/Mats/CarMats.jpg"
+import sevenMats from "../../assets/Mats/sevenMats.jpg"
+import pvc from "../../assets/Mats/pvc.jpg"
+import Waterproof from "../../assets/Mats/Waterproof.jpg"
+import Premium from "../../assets/Mats/Premium.jpg"
+
+// Tint
+import SunFilms from "../../assets/Film/SunFilms.jpg"
+import HeatControl from "../../assets/Film/HeatControl.jpg"
+import Privacy from "../../assets/Film/Privacy.jpg"
+import Shield from "../../assets/Film/Shield.jpg"
+import Tint from "../../assets/Film/Tint.jpg"
+
+// Camera
+import ReverseCamera from "../../assets/Camera/ReverseCamera.jpg"
+import HDCamera from "../../assets/Camera/HDCamera.jpg"
+import Sensor from "../../assets/Camera/Sensor.jpg"
+import NightVision from "../../assets/Camera/NightVision.jpg"
+import FullCamera from "../../assets/Camera/FullCamera.jpg"
+
+
 const products = [
   {
     title: "Car Audio Systems",
     icon: <FaVolumeUp />,
     description:
-      "Advanced car audio solutions engineered for crystal-clear sound performance and immersive driving experience.",
+      "Experience immersive in-car entertainment with premium audio systems engineered for crystal-clear sound and deep bass performance.",
+
+    banner:Mainaudio,
+      
 
     items: [
       {
         name: "Amplifiers",
-        image:
-          "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop",
+        description: "High-power amplifiers for superior sound clarity.",
+        image:Amplifier,
+          
       },
 
       {
         name: "DSP Processors",
-        image:
-          "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop",
+        description: "Advanced digital sound tuning systems.",
+        image:DSP,
       },
 
       {
         name: "Subwoofers",
-        image:
-          "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1200&auto=format&fit=crop",
+        description: "Deep bass enhancement for music lovers.",
+        image:Subwoofers,
       },
 
       {
         name: "Tweeters",
-        image:
-          "https://images.unsplash.com/photo-1489824904134-891ab64532f1?q=80&w=1200&auto=format&fit=crop",
+        description: "Crisp and balanced high-frequency sound output.",
+        image:Tweeters,
       },
     ],
   },
@@ -49,97 +88,108 @@ const products = [
     title: "Seat Covers",
     icon: <FaChair />,
     description:
-      "Premium custom-fit seat covers designed for luxury interiors, comfort, and long-lasting durability.",
+      "Premium seat covers crafted for luxury interiors, maximum comfort, and long-lasting durability.",
+
+    banner:Seat,
 
     items: [
       {
-        name: "Leather Seat Covers",
-        image:
-          "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop",
+        name: "Leather Covers",
+        description: "Elegant premium leather finish interiors.",
+        image:Leather,
       },
 
       {
         name: "Luxury Covers",
-        image:
-          "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop",
+        description: "Modern stitched designer seat collections.",
+        image:Luxury,
       },
 
       {
-        name: "Premium Cushioning",
-        image:
-          "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1200&auto=format&fit=crop",
+        name: "Cushion Support",
+        description: "Enhanced comfort for long drives.",
+        image:Cuisine,
       },
 
       {
-        name: "Custom Fit Covers",
-        image:
-          "https://images.unsplash.com/photo-1489824904134-891ab64532f1?q=80&w=1200&auto=format&fit=crop",
+        name: "Custom Fit",
+        description: "Perfect fitting for all car models.",
+        image:Custom,
       },
     ],
   },
 
-  {
-    title: "Speaker Audio",
-    icon: <FaCompactDisc />,
-    description:
-      "Branded speaker systems delivering deep bass, balanced sound clarity, and premium audio quality.",
+  // {
+  //   title: "Speaker Audio",
+  //   icon: <FaCompactDisc />,
+  //   description:
+  //     "Branded speaker systems designed to deliver balanced sound, rich vocals, and powerful bass response.",
 
-    items: [
-      {
-        name: "Alpine Speakers",
-        image:
-          "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1200&auto=format&fit=crop",
-      },
+  //   banner:
+  //     "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1400&auto=format&fit=crop",
 
-      {
-        name: "Pioneer Speakers",
-        image:
-          "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop",
-      },
+  //   items: [
+  //     {
+  //       name: "Alpine Speakers",
+  //       description: "Premium branded speaker performance.",
+  //       image:
+  //         "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1200&auto=format&fit=crop",
+  //     },
 
-      {
-        name: "Door Speakers",
-        image:
-          "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop",
-      },
+  //     {
+  //       name: "Pioneer Speakers",
+  //       description: "Reliable and powerful speaker systems.",
+  //       image:
+  //         "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop",
+  //     },
 
-      {
-        name: "Rear Speakers",
-        image:
-          "https://images.unsplash.com/photo-1493238792000-8113da705763?q=80&w=1200&auto=format&fit=crop",
-      },
-    ],
-  },
+  //     {
+  //       name: "Door Speakers",
+  //       description: "Clear front door audio enhancement.",
+  //       image:
+  //         "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop",
+  //     },
+
+  //     {
+  //       name: "Rear Speakers",
+  //       description: "Full cabin immersive sound experience.",
+  //       image:
+  //         "https://images.unsplash.com/photo-1493238792000-8113da705763?q=80&w=1200&auto=format&fit=crop",
+  //     },
+  //   ],
+  // },
 
   {
     title: "Car Mats",
     icon: <MdDashboardCustomize />,
     description:
-      "Elegant and durable floor mats crafted to protect your vehicle interior from dust, mud, and spills.",
+      "Protect your car interiors with elegant, waterproof, and durable floor mat collections.",
+
+    banner:CarMats,
 
     items: [
       {
         name: "7D Mats",
-        image:
-          "https://images.unsplash.com/photo-1489824904134-891ab64532f1?q=80&w=1200&auto=format&fit=crop",
+        description: "Luxury layered premium floor protection.",
+        image:sevenMats,
       },
 
       {
         name: "PVC Mats",
-        image:
-          "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop",
+        description: "Durable and easy-to-clean floor mats.",
+        image:pvc,
       },
 
       {
         name: "Waterproof Mats",
-        image:
-          "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop",
+        description: "Complete dirt and spill protection.",
+        image:Waterproof,
       },
 
       {
         name: "Premium Floor Mats",
-        image:
-          "https://images.unsplash.com/photo-1493238792000-8113da705763?q=80&w=1200&auto=format&fit=crop",
+        description: "Stylish interiors with premium finish.",
+        image:Premium,
       },
     ],
   },
@@ -148,31 +198,33 @@ const products = [
     title: "Sun Films",
     icon: <MdOutlineWbSunny />,
     description:
-      "Heat-resistant and UV-protection sun films that enhance comfort, privacy, and vehicle appearance.",
+      "Heat-resistant sun films providing privacy, UV protection, and stylish appearance for vehicles.",
+
+    banner:SunFilms,
 
     items: [
       {
-        name: "Heat Control Films",
-        image:
-          "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop",
+        name: "Heat Control",
+        description: "Reduces cabin heat and improves comfort.",
+        image:HeatControl,
       },
 
       {
         name: "Privacy Films",
-        image:
-          "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop",
+        description: "Enhanced privacy and premium aesthetics.",
+        image:Privacy,
       },
 
       {
-        name: "UV Protection Films",
-        image:
-          "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1200&auto=format&fit=crop",
+        name: "UV Protection",
+        description: "Blocks harmful UV rays effectively.",
+        image:Shield,
       },
 
       {
         name: "Black Tint Films",
-        image:
-          "https://images.unsplash.com/photo-1489824904134-891ab64532f1?q=80&w=1200&auto=format&fit=crop",
+        description: "Stylish dark finish with premium look.",
+        image:Tint,
       },
     ],
   },
@@ -181,196 +233,182 @@ const products = [
     title: "Reverse Cameras",
     icon: <FaCamera />,
     description:
-      "Advanced parking assistance and HD reverse camera systems for safer and smarter driving.",
+      "Advanced reverse parking systems designed for safer, smarter, and easier driving experience.",
+
+    banner:ReverseCamera,
 
     items: [
       {
         name: "HD Cameras",
-        image:
-          "https://images.unsplash.com/photo-1493238792000-8113da705763?q=80&w=1200&auto=format&fit=crop",
+        description: "Crystal clear parking visibility.",
+        image:HDCamera,
       },
 
       {
         name: "Parking Sensors",
-        image:
-          "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop",
+        description: "Accurate parking assistance technology.",
+        image:Sensor,
       },
 
       {
         name: "Night Vision",
-        image:
-          "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop",
+        description: "Enhanced visibility during night driving.",
+        image:NightVision,
       },
 
       {
         name: "360° Camera",
-        image:
-          "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1200&auto=format&fit=crop",
+        description: "Complete surround parking assistance.",
+        image:FullCamera,
       },
     ],
   },
 ];
 
 const ProductSection = () => {
-  const [selectedImages, setSelectedImages] = useState(
-    products.map((product) => product.items[0].image)
-  );
-
-  const handleImageChange = (productIndex, image) => {
-    const updatedImages = [...selectedImages];
-    updatedImages[productIndex] = image;
-    setSelectedImages(updatedImages);
-  };
-
   return (
-    <section className="bg-[#f7f7f7] py-16 lg:py-24 px-5 lg:px-20 overflow-hidden">
-
+    <section
+      className="bg-[#f7f7f7] py-14 lg:py-24 px-4 sm:px-6 lg:px-20"
+      id="products"
+    >
       <div className="max-w-7xl mx-auto">
 
         {/* HEADING */}
-        <div className="text-center mb-16 lg:mb-24">
+        <div className="text-center mb-12 lg:mb-16">
 
-          <span className="uppercase tracking-[4px] text-[#EF993A] font-semibold">
+          <span className="uppercase tracking-[4px] text-[#EF993A] font-semibold text-xs sm:text-sm">
             Premium Collection
           </span>
 
-          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-black text-gray-900 mt-5 leading-tight">
-            Premium Car Accessories
-            <span className="block text-[#EF993A]">
-              & Automotive Products
-            </span>
+          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-black text-gray-900 mt-4">
+            Car Accessories
           </h2>
 
-          <div className="w-24 h-[3px] bg-[#EF993A] mx-auto mt-8"></div>
+          <div className="w-24 h-[3px] bg-[#EF993A] mx-auto mt-6"></div>
 
-          <p className="text-gray-600 max-w-3xl mx-auto mt-8 text-base lg:text-lg leading-relaxed">
-            Explore luxury automotive accessories, branded audio systems,
-            premium interiors, and advanced vehicle enhancement products.
+          <p className="text-gray-600 max-w-2xl mx-auto mt-5 text-sm sm:text-base lg:text-lg leading-relaxed">
+            Explore premium automotive accessories crafted
+            for luxury, comfort, and performance.
           </p>
 
         </div>
 
-        {/* PRODUCT LAYOUT */}
-        <div className="space-y-20 lg:space-y-24">
+        {/* ALL PRODUCT CATEGORIES */}
+        <div className="space-y-10 lg:space-y-14">
 
           {products.map((product, productIndex) => (
 
             <div
               key={productIndex}
-              className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-stretch border-t border-gray-200 pt-12 lg:pt-16"
+              className="bg-white overflow-hidden border border-gray-200 shadow-sm hover:shadow-xl transition duration-500"
             >
 
-              {/* LEFT IMAGE SECTION */}
-              <div className="relative h-full">
+              {/* TOP SECTION */}
+              <div className="grid lg:grid-cols-[0.9fr_1.1fr]">
 
-                {/* CORNER BORDER */}
-                <div className="absolute top-0 left-0 w-20 h-20 lg:w-32 lg:h-32 border-t-4 border-l-4 border-[#EF993A] z-10"></div>
-
-                <div className="relative overflow-hidden h-[420px] sm:h-[500px] lg:h-full lg:min-h-[620px] bg-black shadow-[0_10px_40px_rgba(0,0,0,0.12)] group">
+                {/* IMAGE */}
+                <div className="relative h-[260px] sm:h-[360px] lg:h-full overflow-hidden">
 
                   <img
-                    src={selectedImages[productIndex]}
+                    src={product.banner}
                     alt={product.title}
-                    className="w-full h-full object-cover transition duration-700 group-hover:scale-105"
+                    className="w-full h-full object-cover"
                   />
 
-                  {/* OVERLAY */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
 
-                  {/* CONTENT */}
-                  <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8 lg:p-10 bg-gradient-to-t from-black to-transparent">
+                  <div className="absolute bottom-0 left-0 p-6 lg:p-10">
 
-                    <div className="flex items-center gap-4 mb-5">
-
-                      <div className="w-12 h-12 lg:w-14 lg:h-14 bg-[#EF993A] text-white flex items-center justify-center text-xl lg:text-2xl">
-                        {product.icon}
-                      </div>
-
-                      <div>
-
-                        <span className="uppercase text-[10px] sm:text-xs tracking-[3px] text-gray-300">
-                          Premium Collection
-                        </span>
-
-                        <h3 className="text-2xl sm:text-3xl font-black text-white">
-                          {product.title}
-                        </h3>
-
-                      </div>
+                    <div className="w-14 h-14 bg-[#EF993A] text-white flex items-center justify-center text-2xl mb-4">
+                      {product.icon}
                     </div>
 
-                    <p className="text-sm lg:text-base text-gray-300 leading-relaxed max-w-lg">
-                      {product.description}
-                    </p>
+                    <h3 className="text-2xl sm:text-3xl lg:text-5xl font-black text-white">
+                      {product.title}
+                    </h3>
 
                   </div>
+
                 </div>
-              </div>
 
-              {/* RIGHT CONTENT SECTION */}
-              <div className="h-full flex flex-col justify-between">
+                {/* CONTENT */}
+                <div className="p-6 sm:p-8 lg:p-10 flex flex-col justify-center">
 
-                <div>
-
-                  <span className="uppercase tracking-[4px] text-[#EF993A] font-semibold text-sm">
+                  <span className="uppercase tracking-[3px] text-[#EF993A] font-semibold text-xs">
                     Product Category
                   </span>
 
-                  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 mt-5 leading-tight">
+                  <h2 className="text-2xl sm:text-3xl lg:text-5xl font-black text-gray-900 mt-3 leading-tight">
                     Premium Automotive
                     <span className="block text-[#EF993A]">
                       Accessories
                     </span>
                   </h2>
 
-                  <div className="w-24 h-[3px] bg-[#EF993A] mt-6 mb-8"></div>
+                  <div className="w-20 h-[3px] bg-[#EF993A] mt-6 mb-6"></div>
 
-                  <p className="text-gray-600 text-base lg:text-lg leading-relaxed mb-10 max-w-xl">
-                    High-quality accessories and premium car enhancement
-                    solutions crafted for comfort, luxury, safety,
-                    and performance.
+                  <p className="text-gray-600 leading-relaxed text-sm sm:text-base lg:text-lg">
+                    {product.description}
                   </p>
 
                 </div>
 
-                {/* PRODUCT ITEMS */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-5 mt-auto">
+              </div>
+
+              {/* PRODUCT ITEMS */}
+              <div className="border-t border-gray-200 bg-[#fafafa] p-4 sm:p-6">
+
+                <div className="flex gap-4 overflow-x-auto scrollbar-hide pb-2">
 
                   {product.items.map((item, itemIndex) => (
 
-                    <button
+                    <div
                       key={itemIndex}
-                      onClick={() =>
-                        handleImageChange(productIndex, item.image)
-                      }
-                      className="group relative bg-white border border-gray-300 p-5 lg:p-6 text-left hover:border-[#EF993A] hover:bg-[#fffaf3] transition-all duration-300"
+                      className="min-w-[250px] bg-white border border-gray-200 overflow-hidden hover:border-[#EF993A] hover:-translate-y-1 transition-all duration-300"
                     >
 
-                      {/* TOP BORDER EFFECT */}
-                      <div className="absolute top-0 left-0 w-0 h-[3px] bg-[#EF993A] group-hover:w-full transition-all duration-500"></div>
+                      {/* IMAGE */}
+                      <div className="h-[170px] overflow-hidden">
 
-                      <div className="w-11 h-11 lg:w-12 lg:h-12 bg-[#EF993A]/10 text-[#EF993A] flex items-center justify-center font-bold mb-5 group-hover:bg-[#EF993A] group-hover:text-white transition duration-300">
-                        0{itemIndex + 1}
+                        <img
+                          src={item.image}
+                          alt={item.name}
+                          className="w-full h-full object-cover hover:scale-105 transition duration-700"
+                        />
+
                       </div>
 
-                      <h4 className="font-bold text-gray-900 text-base lg:text-lg mb-2">
-                        {item.name}
-                      </h4>
+                      {/* CONTENT */}
+                      <div className="p-5">
 
-                      <p className="text-sm text-gray-500 leading-relaxed">
-                        Premium quality upgrade for modern vehicles.
-                      </p>
+                        <div className="text-[#EF993A] font-bold text-sm mb-2">
+                          0{itemIndex + 1}
+                        </div>
 
-                    </button>
+                        <h4 className="font-bold text-gray-900 text-base mb-2">
+                          {item.name}
+                        </h4>
+
+                        <p className="text-sm text-gray-500 leading-relaxed">
+                          {item.description}
+                        </p>
+
+                      </div>
+
+                    </div>
 
                   ))}
 
                 </div>
+
               </div>
+
             </div>
 
           ))}
+
         </div>
+
       </div>
     </section>
   );

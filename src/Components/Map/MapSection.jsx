@@ -49,9 +49,15 @@ const MapSection = () => {
                         </div>
 
                         {/* BUTTON */}
-                        <button className="mt-10 bg-[#EF993A] hover:bg-[#d98626] transition duration-300 text-black font-semibold px-8 py-4 shadow-lg">
+                        {/* GET DIRECTIONS BUTTON */}
+                        <a
+                            href="https://www.google.com/maps/dir/?api=1&destination=Promax+Car+Accessories+Coimbatore"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block mt-10 bg-[#EF993A] hover:bg-[#d98626] transition duration-300 text-black font-semibold px-8 py-4 shadow-lg"
+                        >
                             Get Directions
-                        </button>
+                        </a>
 
                     </div>
 

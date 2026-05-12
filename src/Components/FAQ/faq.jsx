@@ -55,7 +55,7 @@ const FAQSection = () => {
         
         {/* Heading */}
         <div className="text-center mb-16">
-          <span className="inline-block px-5 py-2 rounded-full bg-[#EF993A]/10 text-[#EF993A] text-sm font-semibold tracking-wide uppercase">
+          <span className="inline-block px-5 py-2  bg-[#EF993A]/10 text-[#EF993A] text-sm font-semibold tracking-wide uppercase">
             FAQs
           </span>
 
@@ -76,7 +76,7 @@ const FAQSection = () => {
           <div className="relative">
             
             {/* Main Image */}
-            <div className="relative rounded-[30px] overflow-hidden shadow-2xl">
+            <div className="relative  overflow-hidden shadow-2xl">
               <img
                 src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1400&auto=format&fit=crop"
                 alt="PROMAX Car Accessories"
@@ -87,10 +87,10 @@ const FAQSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
 
               {/* Floating Card */}
-              <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md rounded-3xl p-6 shadow-xl border border-gray-100">
+              <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md p-6 shadow-xl border border-gray-100">
                 <div className="flex items-start gap-4">
                   
-                  <div className="bg-[#EF993A] text-white p-4 rounded-2xl">
+                  <div className="bg-[#EF993A] text-white p-4">
                     <ShieldCheck size={28} />
                   </div>
 
@@ -118,7 +118,7 @@ const FAQSection = () => {
               return (
                 <div
                   key={index}
-                  className={`rounded-3xl border transition-all duration-300 overflow-hidden bg-white shadow-sm hover:shadow-lg ${
+                  className={` border transition-all duration-300 overflow-hidden bg-white shadow-sm hover:shadow-lg ${
                     isOpen
                       ? "border-[#EF993A]"
                       : "border-gray-200 hover:border-[#EF993A]/50"
@@ -133,7 +133,7 @@ const FAQSection = () => {
                       
                       {/* Icon */}
                       <div
-                        className={`min-w-[55px] h-[55px] rounded-2xl flex items-center justify-center transition-all duration-300 ${
+                        className={`min-w-[55px] h-[55px]  flex items-center justify-center transition-all duration-300 ${
                           isOpen
                             ? "bg-[#EF993A] text-white"
                             : "bg-[#FFF4E8] text-[#EF993A]"
@@ -143,14 +143,14 @@ const FAQSection = () => {
                       </div>
 
                       {/* Question */}
-                      <h3 className="text-[#111111] text-lg md:text-xl font-semibold leading-snug">
+                      <h3 className="text-[#111111] text-lg md:text-xl leading-snug">
                         {faq.question}
                       </h3>
                     </div>
 
                     {/* Arrow */}
                     <div
-                      className={`transition-all duration-300 p-2 rounded-xl ${
+                      className={`transition-all duration-300 p-2  ${
                         isOpen
                           ? "bg-[#EF993A] text-white"
                           : "bg-[#F5F5F5] text-[#111111]"

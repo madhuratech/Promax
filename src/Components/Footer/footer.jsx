@@ -1,46 +1,45 @@
 import {
-    FaFacebookF,
     FaInstagram,
-    FaYoutube,
     FaWhatsapp,
 } from "react-icons/fa";
 
-import PromaxLogo from "../../assets/AudioBrands/PromaxLogo.png";
-
+import Promaxcbe from "../../assets/Logo/Promaxcbe.png"
 const Footer = () => {
     return (
-        <footer className="bg-black border-t border-[#1a1a1a] text-white">
+        <footer className="bg-black text-white border-t border-[#1a1a1a]">
 
-            {/* TOP SECTION */}
-            <div className="max-w-7xl mx-auto px-6 md:px-16 py-20 text-center">
+            {/* MAIN FOOTER */}
+            <div className="max-w-7xl mx-auto px-2 md:px-16 py-6 ">
 
-                {/* LOGO */}
-                <div className="flex flex-col items-center justify-center w-full">
+                {/* LOGO CENTER */}
+                <div className="flex flex-col items-center justify-center">
 
                     <img
-                        src={PromaxLogo}
+                        src={Promaxcbe}
                         alt="PROMAX Logo"
-                        className="w-56 md:w-72 lg:w-80 object-contain mx-auto"
+                        className="w-52 md:w-64 object-contain"
                     />
 
-                    <p className="text-sm md:text-base text-[#EF993A] tracking-[6px] uppercase -mt-3">
-                        Car Accessories
+                    <p className="text-gray-400 text-sm md:text-base text-center max-w-2xl mt-5 leading-7">
+                        Premium car accessories, Android systems, ambient lighting,
+                        audio upgrades, reverse cameras, seat covers, and complete
+                        car customization solutions with professional installation.
                     </p>
 
                 </div>
 
-                {/* MENU */}
-                <div className="flex flex-wrap justify-center gap-6 md:gap-10 mt-14 text-sm font-medium uppercase tracking-wide">
+                {/* CENTER MENUS */}
+                <div className="flex flex-wrap justify-center gap-6 md:gap-10 mt-10 text-sm md:text-base font-medium">
 
                     <a
-                        href="#home"
-                        className="text-[#EF993A] hover:text-white transition duration-300"
+                        href="/"
+                        className="text-gray-400 hover:text-[#EF993A] transition duration-300"
                     >
                         Home
                     </a>
 
                     <a
-                        href="#about"
+                        href="/#about"
                         className="text-gray-400 hover:text-[#EF993A] transition duration-300"
                     >
                         About
@@ -68,7 +67,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                        href="#contact"
+                        href="/contact"
                         className="text-gray-400 hover:text-[#EF993A] transition duration-300"
                     >
                         Contact
@@ -76,66 +75,49 @@ const Footer = () => {
 
                 </div>
 
+
+
                 {/* SOCIAL ICONS */}
-                <div className="flex justify-center gap-5 mt-14">
+                <div className="flex justify-center gap-4 mt-10">
 
                     <a
-                        href="#"
-                        className="w-12 h-12 border border-[#2c2c2c] bg-[#111111] flex items-center justify-center text-[#EF993A] hover:bg-[#EF993A] hover:text-black transition duration-300"
+                        href="https://www.instagram.com/promaxcaraccessories221?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        target="_blank"
+                        rel="noreferrer"
+                        className="w-12 h-12 rounded-full border border-[#2c2c2c] bg-[#111111] flex items-center justify-center text-[#EF993A] hover:bg-[#EF993A] hover:text-black transition duration-300"
                     >
-                        <FaFacebookF size={17} />
+                        <FaInstagram size={18} />
                     </a>
 
                     <a
-                        href="#"
-                        className="w-12 h-12 border border-[#2c2c2c] bg-[#111111] flex items-center justify-center text-[#EF993A] hover:bg-[#EF993A] hover:text-black transition duration-300"
+                        href="https://wa.me/919003680296?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="w-12 h-12 rounded-full border border-[#2c2c2c] bg-[#111111] flex items-center justify-center text-[#EF993A] hover:bg-[#EF993A] hover:text-black transition duration-300"
                     >
-                        <FaInstagram size={17} />
-                    </a>
-
-                    <a
-                        href="#"
-                        className="w-12 h-12 border border-[#2c2c2c] bg-[#111111] flex items-center justify-center text-[#EF993A] hover:bg-[#EF993A] hover:text-black transition duration-300"
-                    >
-                        <FaYoutube size={17} />
-                    </a>
-
-                    <a
-                        href="#"
-                        className="w-12 h-12 border border-[#2c2c2c] bg-[#111111] flex items-center justify-center text-[#EF993A] hover:bg-[#EF993A] hover:text-black transition duration-300"
-                    >
-                        <FaWhatsapp size={17} />
+                        <FaWhatsapp size={18} />
                     </a>
 
                 </div>
 
-                {/* DESCRIPTION */}
-                <p className="max-w-3xl mx-auto text-gray-500 text-sm md:text-base leading-8 mt-14">
-                    Premium car accessories, professional audio installations,
-                    Android systems, ambient lighting, seat covers, reverse cameras,
-                    and complete car customization solutions designed with quality,
-                    performance, and style.
-                </p>
-
             </div>
 
             {/* BOTTOM BAR */}
-            <div className="border-t border-[#1f1f1f] py-5 px-6 bg-[#050505]">
+            <div className="border-t border-[#1f1f1f] bg-[#050505] py-4 px-6">
 
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3">
 
-                    <p className="text-sm text-gray-600 text-center md:text-left">
+                    <p className="text-xs md:text-sm text-gray-600 text-center">
                         © 2026 PROMAX Car Accessories. All Rights Reserved.
                     </p>
 
-                    <div className="flex items-center gap-5 text-xs uppercase tracking-wide text-gray-600">
+                    <div className="flex items-center gap-5 text-[11px]  tracking-wide text-gray-600">
 
-                        <a href="#" className="hover:text-[#EF993A] transition">
-                            Privacy Policy
-                        </a>
-
-                        <a href="#" className="hover:text-[#EF993A] transition">
-                            Terms & Conditions
+                        <a
+                            href="https://madhuratech.com" target="_blank"
+                            className="transition"
+                        >
+                           Tuned by <span className="font-bold text-[#EF993A]">MADHURA TECH</span>
                         </a>
 
                     </div>

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
     Speaker,
     Volume2,
@@ -8,22 +7,32 @@ import {
     CarFront,
 } from "lucide-react";
 
+import { FaInstagram } from "react-icons/fa";
+
+import volks from "../../assets/Gallery/volks.mp4";
+import Innova from "../../assets/Gallery/innova.mp4";
+import AudUpgrade from "../../assets/Gallery/audupgrade.mp4";
+import Promax from "../../assets/Gallery/promax.mp4";
+import caraccess from "../../assets/Gallery/caraccess.mp4";
+import Alpine from "../../assets/Gallery/alpine.mp4";
+
 const galleryItems = [
     {
         id: 1,
         category: "Audio Setup",
         title: "Premium DSP Audio Tuning",
         icon: <Speaker size={18} />,
-        // instagramEmbed:
-        //     "https://www.instagram.com/reel/DOr_joVkpB5/embed",
+        video: volks,
+        instagramUrl: "https://www.instagram.com/reel/DQxr1LmEhmT/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     },
+
     {
         id: 2,
         category: "Speaker Installation",
         title: "Door Speaker Upgrade",
         icon: <Volume2 size={18} />,
-        // instagramEmbed:
-        //     "https://www.instagram.com/reel/DMot1pUyb35/embed",
+        video: Innova,
+        instagramUrl: "https://www.instagram.com/reel/DMy9CePyip8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     },
 
     {
@@ -31,8 +40,8 @@ const galleryItems = [
         category: "Seat Cover Fitting",
         title: "Luxury Leather Seat Covers",
         icon: <ShieldCheck size={18} />,
-        // instagramEmbed:
-        //     "https://www.instagram.com/reel/DKJlZq9SOiX/embed",
+        video: AudUpgrade,
+        instagramUrl: "https://www.instagram.com/reel/DK_SGXaSRzG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     },
 
     {
@@ -40,8 +49,8 @@ const galleryItems = [
         category: "Reverse Camera Setup",
         title: "HD Reverse Camera Installation",
         icon: <Camera size={18} />,
-        // instagramEmbed:
-        //     "https://www.instagram.com/reel/DKOs1Hkyqw0/embed",
+        video: Promax,
+        instagramUrl: "https://www.instagram.com/reel/DKJlZq9SOiX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     },
 
     {
@@ -49,8 +58,8 @@ const galleryItems = [
         category: "Ambient Lighting",
         title: "Premium Ambient Lighting",
         icon: <Lightbulb size={18} />,
-        // instagramEmbed:
-        //     "https://www.instagram.com/reel/DLOfws2ScCr/embed",
+        video: caraccess,
+        instagramUrl: "https://www.instagram.com/reel/DKrOX86S6zm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     },
 
     {
@@ -58,114 +67,90 @@ const galleryItems = [
         category: "Full Interior Upgrade",
         title: "Complete Interior Transformation",
         icon: <CarFront size={18} />,
-        // instagramEmbed:
-        //     "https://www.instagram.com/reel/DK_SGXaSRzG/embed",
+        video: Alpine,
+        instagramUrl: "https://www.instagram.com/reel/DLGuJn3yC8X/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     },
 ];
 
-const categories = [
-    "All",
-    "Audio Setup",
-    "Speaker Installation",
-    "Seat Cover Fitting",
-    "Reverse Camera Setup",
-    "Ambient Lighting",
-    "Full Interior Upgrade",
-];
-
 const GallerySection = () => {
-    const [activeCategory, setActiveCategory] = useState("All");
-
-    const filteredItems =
-        activeCategory === "All"
-            ? galleryItems
-            : galleryItems.filter(
-                (item) => item.category === activeCategory
-            );
-
     return (
-        <section className="bg-[#f7f7f7] py-24 px-6 md:px-16 overflow-hidden">
+        <section
+            className="bg-[#f7f7f7] py-20 px-4 md:px-10 lg:px-16"
+            id="gallery"
+        >
             <div className="max-w-7xl mx-auto">
 
                 {/* Heading */}
-                <div className="text-center max-w-3xl mx-auto mb-16">
+                <div className="text-center max-w-3xl mx-auto mb-14">
 
-                    <span className="text-[#EF993A] font-semibold uppercase tracking-[4px]">
+                    <span className="text-[#EF993A] font-semibold uppercase tracking-[3px] text-sm">
                         Installation Gallery
                     </span>
 
-                    <h2 className="text-4xl md:text-5xl font-black mt-4 text-gray-900 leading-tight">
+                    <h2 className="text-3xl md:text-5xl font-black mt-4 text-gray-900 leading-tight">
                         Our Recent Installations
                     </h2>
 
-                    <p className="text-gray-600 text-lg mt-6 leading-relaxed">
-                        Explore our latest car audio installations, premium interior
-                        upgrades, speaker setups, seat cover fittings, reverse camera
-                        installations, ambient lighting upgrades, and customized vehicle
-                        transformations completed for satisfied customers.
+                    <p className="text-gray-600 text-base md:text-lg mt-5 leading-relaxed">
+                        Explore our latest premium car audio installations,
+                        speaker upgrades, seat cover fittings, reverse camera
+                        setups, ambient lighting and complete interior
+                        transformations.
                     </p>
 
                 </div>
 
-                {/* Category Buttons */}
-                <div className="flex flex-wrap justify-center gap-4 mb-14">
+                {/* Gallery Grid */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                    {categories.map((category, index) => (
-                        <button
-                            key={index}
-                            onClick={() => setActiveCategory(category)}
-                            className={`px-5 py-3 rounded-full text-sm font-semibold transition-all duration-300 border ${activeCategory === category
-                                ? "bg-[#EF993A] text-white border-[#EF993A] shadow-lg"
-                                : "bg-white text-gray-700 border-gray-200 hover:border-[#EF993A] hover:text-[#EF993A]"
-                                }`}
-                        >
-                            {category}
-                        </button>
-                    ))}
-
-                </div>
-
-
-                {/* Instagram Video Grid */}
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-                    {filteredItems.map((item) => (
+                    {galleryItems.map((item) => (
                         <div
                             key={item.id}
-                            className="bg-white rounded-[28px] overflow-hidden shadow-lg border border-gray-100 hover:-translate-y-2 transition-all duration-500"
+                            className="bg-white border border-gray-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group "
                         >
 
-                            {/* Instagram Reel */}
-                            <div className="relative w-full h-[340px] overflow-hidden">
+                            {/* Video Section */}
+                            <a
+                                href={item.instagramUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="block"
+                            >
+                                <div className="relative w-full h-[240px] sm:h-[280px] md:h-[320px] overflow-hidden bg-black cursor-pointer">
 
-                                <iframe
-                                    src={item.instagramEmbed}
-                                    title={item.title}
-                                    allowTransparency={true}
-                                    allowFullScreen={true}
-                                    frameBorder="0"
-                                    scrolling="no"
-                                    className="w-full h-full"
-                                ></iframe>
+                                    <video
+                                        src={item.video}
+                                        autoPlay
+                                        loop
+                                        muted
+                                        playsInline
+                                        preload="auto"
+                                        webkit-playsinline="true"
+                                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                    />
 
-                            </div>
+                                        {/* Dark Overlay */}
+                                        <div className="absolute inset-0 bg-black/10 group-hover:bg-black/40 transition-all duration-300"></div>
 
-                            {/* Content */}
-                            <div className="p-5">
+                                        {/* Instagram Hover Icon */}
+                                        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
 
-                                <div className="flex items-center gap-2 text-[#EF993A] mb-2">
-                                    {item.icon}
+                                            <div className="bg-white/20 backdrop-blur-md p-4 rounded-full border border-white/30 shadow-lg">
 
-                                    <span className="text-sm font-semibold">
-                                        {item.category}
-                                    </span>
+                                                <FaInstagram
+                                                    size={34}
+                                                    className="text-white"
+                                                />
+
+                                            </div>
+
+                                        </div>
+
                                 </div>
+                            </a>
 
-                                <h3 className="text-xl font-bold text-gray-900 leading-snug">
-                                    {item.title}
-                                </h3>
+                          
 
-                            </div>
                         </div>
                     ))}
 

@@ -105,7 +105,7 @@ export default function TestimonialSection() {
             .map((item, index) => (
               <div
                 key={index}
-                className={`relative rounded-[32px] border border-white/10 backdrop-blur-md p-8 min-h-[340px] transition-all duration-500 hover:-translate-y-2 ${
+                className={`relative border border-white/10 backdrop-blur-md p-8 min-h-[340px] transition-all duration-500 hover:-translate-y-2 ${
                   index === 1
                     ? "bg-white text-black shadow-2xl scale-[1.02]"
                     : "bg-[#2a2a2a] text-white"
@@ -146,12 +146,7 @@ export default function TestimonialSection() {
 
                 {/* Profile */}
                 <div className="flex items-center gap-4 mt-auto">
-                  <img
-                    src={item.image}
-                    alt={item.name}
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
-
+                  
                   <div>
                     <h4
                       className={`text-sm font-semibold ${
@@ -196,14 +191,14 @@ export default function TestimonialSection() {
         <div className="flex items-center justify-center gap-4 mt-14">
           <button
             onClick={prevSlide}
-            className="w-12 h-12 rounded-xl bg-[#2a2a2a] border border-white/10 text-white flex items-center justify-center hover:bg-[#EF993A] transition-all duration-300"
+            className="w-12 h-12  bg-[#2a2a2a] border border-white/10 text-white flex items-center justify-center hover:bg-[#EF993A] transition-all duration-300"
           >
             <ChevronLeft size={20} />
           </button>
 
           <button
             onClick={nextSlide}
-            className="w-12 h-12 rounded-xl bg-[#2a2a2a] border border-white/10 text-white flex items-center justify-center hover:bg-[#EF993A] transition-all duration-300"
+            className="w-12 h-12  bg-[#2a2a2a] border border-white/10 text-white flex items-center justify-center hover:bg-[#EF993A] transition-all duration-300"
           >
             <ChevronRight size={20} />
           </button>

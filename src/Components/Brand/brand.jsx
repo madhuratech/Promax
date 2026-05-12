@@ -63,12 +63,12 @@ const features = [
 
 export default function AudioBrandsSection() {
   return (
-    <section className="relative w-full bg-[#f8f8f8] py-24 px-6 md:px-12 overflow-hidden">
+    <section className="relative w-full bg-[#f8f8f8] py-24 px-6 md:px-12 overflow-hidden" id="brands">
 
       {/* BACKGROUND GLOW */}
-      <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-[#EF993A]/10 rounded-full blur-[120px]"></div>
+      <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-[#EF993A]/10 blur-[120px]"></div>
 
-      <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-orange-200/30 rounded-full blur-[100px]"></div>
+      <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-orange-200/30 blur-[100px]"></div>
 
       <div className="max-w-7xl mx-auto relative z-10">
 
@@ -101,7 +101,13 @@ export default function AudioBrandsSection() {
             </p>
 
             {/* BUTTON */}
-            <button className="mt-8 bg-[#EF993A] text-white px-8 py-4 rounded-2xl font-bold hover:scale-105 transition duration-300 shadow-xl">
+            <button
+              onClick={() => {
+                const section = document.getElementById("services");
+                section?.scrollIntoView({ behavior: "smooth" });
+              }}
+              className="mt-8 bg-[#EF993A] text-white px-8 py-4 font-bold hover:scale-105 transition duration-300 shadow-xl"
+            >
               Explore Audio Setup
             </button>
 
@@ -110,9 +116,9 @@ export default function AudioBrandsSection() {
           {/* FEATURE CARD */}
           <div className="relative">
 
-            <div className="absolute -top-10 -right-10 w-52 h-52 bg-[#EF993A]/20 rounded-full blur-3xl"></div>
+            <div className="absolute -top-10 -right-10 w-52 h-52 bg-[#EF993A]/20 blur-3xl"></div>
 
-            <div className="relative overflow-hidden rounded-[35px] bg-white border border-gray-200 shadow-2xl p-8 md:p-10">
+            <div className="relative overflow-hidden bg-white border border-gray-200 shadow-2xl p-8 md:p-10">
 
               {/* TOP LINE */}
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#EF993A] to-orange-500"></div>
@@ -130,7 +136,7 @@ export default function AudioBrandsSection() {
                   </h3>
                 </div>
 
-                <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-[#EF993A] to-orange-500 flex items-center justify-center shadow-xl">
+                <div className="w-20 h-20 bg-gradient-to-br from-[#EF993A] to-orange-500 flex items-center justify-center shadow-xl">
                   <Speaker className="text-white" size={36} />
                 </div>
 
@@ -145,10 +151,10 @@ export default function AudioBrandsSection() {
                   return (
                     <div
                       key={index}
-                      className="group flex items-start gap-5 p-5 rounded-3xl border border-gray-100 bg-[#fafafa] hover:border-[#EF993A]/30 hover:bg-white transition duration-300"
+                      className="group flex items-start gap-5 p-5 border border-gray-100 bg-[#fafafa] hover:border-[#EF993A]/30 hover:bg-white transition duration-300"
                     >
 
-                      <div className="w-14 h-14 rounded-2xl bg-[#fff5eb] flex items-center justify-center shrink-0 group-hover:bg-[#EF993A] transition duration-300">
+                      <div className="w-14 h-14 bg-[#fff5eb] flex items-center justify-center shrink-0 group-hover:bg-[#EF993A] transition duration-300">
 
                         <Icon
                           size={26}
@@ -183,7 +189,7 @@ export default function AudioBrandsSection() {
           {brands.map((brand, index) => (
             <div
               key={index}
-              className="group relative bg-gradient-to-br from-[#EF993A]/5 to-transparent border border-[#EF993A] rounded-3xl p-7 flex flex-col items-center justify-center hover:border-[#EF993A] hover:-translate-y-2 transition-all duration-300 hover:shadow-2xl overflow-hidden"
+              className="group relative bg-gradient-to-br from-[#EF993A]/5 to-transparent border border-[#EF993A] p-7 flex flex-col items-center justify-center hover:border-[#EF993A] hover:-translate-y-2 transition-all duration-300 hover:shadow-2xl overflow-hidden"
             >
 
               {/* HOVER BG */}
@@ -206,9 +212,9 @@ export default function AudioBrandsSection() {
         </div>
 
         {/* CTA */}
-        <div className="mt-20 relative overflow-hidden bg-gradient-to-r from-[#EF993A] to-orange-500 rounded-[40px] p-10 md:p-14 flex flex-col lg:flex-row items-center justify-between gap-8">
+        <div className="mt-20 relative overflow-hidden bg-gradient-to-r from-[#EF993A] to-orange-500  p-10 md:p-14 flex flex-col lg:flex-row items-center justify-between gap-8">
 
-          <div className="absolute top-0 right-0 w-72 h-72 bg-white/10 rounded-full blur-3xl"></div>
+          <div className="absolute top-0 right-0 w-72 h-72 bg-white/10 blur-3xl"></div>
 
           <div className="relative z-10">
             <h3 className="text-3xl md:text-4xl font-black text-white leading-tight">
@@ -223,9 +229,15 @@ export default function AudioBrandsSection() {
             </p>
           </div>
 
-          <button className="relative z-10 bg-white text-[#EF993A] font-bold px-8 py-4 rounded-full hover:scale-105 transition duration-300 shadow-lg">
-            Explore Products
-          </button>
+         <button
+    onClick={() => {
+        const section = document.getElementById("products");
+        section?.scrollIntoView({ behavior: "smooth" });
+    }}
+    className="relative z-10 bg-white text-[#EF993A] font-bold px-8 py-4 hover:scale-105 transition duration-300 shadow-lg"
+>
+    Explore Products
+</button>
 
         </div>
 

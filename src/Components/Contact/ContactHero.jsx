@@ -3,7 +3,7 @@ import { MdLocationOn, MdEmail } from "react-icons/md";
 
 const ContactHero = () => {
     return (
-        <section className="relative bg-[#0B0B0B] text-white overflow-hidden">
+        <section className="relative bg-[#0B0B0B] text-white overflow-hidden" id="contact">
 
             {/* BACKGROUND EFFECTS */}
             <div className="absolute top-[-100px] left-[-100px] w-[350px] h-[350px] bg-[#EF993A]/20 blur-[140px] rounded-full"></div>
@@ -170,7 +170,7 @@ const ContactHero = () => {
                                         </h4>
 
                                         <p className="text-gray-400 mt-1">
-                                            info@promaxcaraccessories.com
+                                            promaxteam002@gmail.com
                                         </p>
                                     </div>
                                 </div>
