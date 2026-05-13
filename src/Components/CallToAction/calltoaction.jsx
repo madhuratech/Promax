@@ -34,7 +34,7 @@ const CTASection = () => {
             
             {/* Contact Button */}
             <a
-              href="#contact"
+              href="/contact"
               className="flex items-center justify-center gap-3 bg-[#EF993A] hover:bg-[#db8424] text-white font-semibold px-8 py-4 transition-all duration-300 shadow-md hover:shadow-lg"
             >
               <PhoneCall size={20} />
@@ -43,7 +43,7 @@ const CTASection = () => {
 
             {/* Consultation Button */}
             <a
-              href="#consultation"
+              href="tel:+919003680296"
               className="flex items-center justify-center gap-3 border border-gray-300 hover:border-[#EF993A] hover:text-[#EF993A] text-gray-800 font-semibold px-8 py-4 transition-all duration-300 bg-white"
             >
               <MessageCircle size={20} />

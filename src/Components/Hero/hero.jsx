@@ -1,5 +1,5 @@
 import { FaArrowRight, FaStar } from "react-icons/fa";
-import Hero from "../../assets/Logo/Hero.jpg"
+import Hero from "../../assets/Logo/Hero.png"
 export default function HeroSection() {
     return (
         <section className="relative min-h-screen overflow-hidden bg-white text-black">
@@ -15,10 +15,10 @@ export default function HeroSection() {
                 />
 
                 {/* DARK OVERLAY */}
-                <div className="absolute inset-0 bg-black/40"></div>
+                {/* <div className="absolute inset-0 bg-black/40"></div> */}
 
                 {/* LEFT GRADIENT */}
-                <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/50 to-transparent"></div>
 
                 {/* ORANGE GLOW */}
                 {/* <div className="absolute top-20 right-20 h-96 w-96 rounded-full bg-[#EF993A]/20 blur-[140px]"></div> */}

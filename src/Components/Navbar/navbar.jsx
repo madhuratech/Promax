@@ -127,10 +127,12 @@ const Navbar = () => {
                         </a>
 
                         {/* BUTTON */}
-                        <button className="hidden md:block bg-[#EF993A] hover:bg-[#d88323] text-white text-sm font-semibold px-5 py-2 transition duration-300">
+                        <a
+                            href="tel:+919003680296"
+                            className="hidden md:block bg-[#EF993A] hover:bg-[#d88323] text-white text-sm font-semibold px-5 py-2 transition duration-300"
+                        >
                             Get Quote
-                        </button>
-
+                        </a>
                         {/* MOBILE MENU BUTTON */}
                         <button
                             onClick={() => setMobileMenu(!mobileMenu)}
