@@ -30,7 +30,7 @@ function Whychoose() {
             </p>
 
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-tight">
-              Why Customers Trust <br />
+              Why Customers Choose <br />
               <span className="text-[#EF993A]">PROMAX</span>
             </h2>
 
@@ -38,9 +38,8 @@ function Whychoose() {
 
           {/* Right */}
           <p className="text-gray-400 max-w-xl text-sm sm:text-base lg:text-lg leading-relaxed">
-            From premium audio systems to expert installation and clean
-            finishing, PROMAX delivers a complete automotive upgrade
-            experience with advanced technology and customer-first service.
+            From advanced car audio systems to precision installation and premium finishing, PROMAX provides 
+            a complete automotive enhancement experience with modern technology and customer-focused service.
           </p>
 
         </div>
@@ -63,13 +62,12 @@ function Whychoose() {
                 </div>
 
                 <h3 className="text-xl lg:text-2xl font-bold mb-4 leading-snug">
-                  Customer Satisfaction Guaranteed
+                  Superior Sound Performance
                 </h3>
 
                 <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
-                  We focus on delivering premium installation quality,
-                  superior sound performance, and exceptional after-sales
-                  support for every customer.
+                  We specialize in delivering premium installation quality, crystal-clear
+                  sound output, and reliable after-sales support for every customer.
                 </p>
 
                 {/* Stats */}
@@ -111,11 +109,11 @@ function Whychoose() {
                 </div>
 
                 <h4 className="text-base lg:text-lg font-bold mb-2">
-                  Expert Technical Support
+                  Professional Technical Assistance
                 </h4>
 
                 <p className="text-gray-400 text-sm leading-relaxed">
-                  Skilled technicians with professional setup and diagnostics.
+                  Experienced technicians offering expert setup, troubleshooting, and complete audio diagnostics.
                 </p>
 
               </div>
@@ -128,12 +126,12 @@ function Whychoose() {
                 </div>
 
                 <h4 className="text-base lg:text-lg font-bold mb-2">
-                  Customized Audio Tuning
+                  Personalized Audio Calibration
                 </h4>
 
                 <p className="text-gray-400 text-sm leading-relaxed">
-                  Balanced sound tuning designed for immersive listening
-                  experience.
+                  Custom sound tuning crafted for a balanced and immersive 
+                  in-car listening experience
                 </p>
 
               </div>
@@ -164,12 +162,11 @@ function Whychoose() {
 
                     <div>
                       <h4 className="font-bold text-base lg:text-lg mb-1">
-                        Premium Imported Brands
+                        High-Quality Imported Products
                       </h4>
 
                       <p className="text-gray-400 text-sm leading-relaxed">
-                        Trusted international brands with high-quality
-                        performance.
+                        Trusted international brands designed for outstanding performance.
                       </p>
                     </div>
 
@@ -188,11 +185,11 @@ function Whychoose() {
 
                     <div>
                       <h4 className="font-bold text-base lg:text-lg mb-1">
-                        Affordable Pricing
+                        Competitive Pricing
                       </h4>
 
                       <p className="text-gray-400 text-sm leading-relaxed">
-                        Premium products and services at competitive pricing.
+                        Premium automotive products and services offered at affordable market prices.
                       </p>
                     </div>
 

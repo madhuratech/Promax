@@ -52,7 +52,7 @@ const products = [
     icon: <FaVolumeUp />,
     heading:"Advanced Automative Accessories",
     description:
-      "Experience immersive in-car entertainment with premium audio systems engineered for crystal-clear sound and deep bass performance.",
+      "Upgrade your driving entertainment with an advanced car audio system in Coimbatore delivering crystal-clear sound quality and powerful bass performance.",
 
     banner:Mainaudio,
       
@@ -88,10 +88,9 @@ const products = [
   {
     title: "Seat Covers",
     icon: <FaChair />,
-    heading:"Advanced Automative Accessories",
+    heading:"Premium Interior Accessories",
     description:
-      "Premium seat covers crafted for luxury interiors, maximum comfort, and long-lasting durability.",
-
+      "Premium seat covers designed for stylish interiors, enhanced comfort, durability, and long-lasting protection for every vehicle.",
     banner:Seat,
 
     items: [
@@ -164,9 +163,9 @@ const products = [
   {
     title: "Car Mats",
     icon: <MdDashboardCustomize />,
-    heading: "Advanced Automotive Accessories",
+    heading: "Premium Car Protection",
     description:
-      "Protect your car interiors with elegant, waterproof, and durable floor mat collections.",
+      "Durable car mats crafted for interior cleanliness, maximum floor protection, stylish appearance, and everyday driving comfort.",
 
     banner:CarMats,
 
@@ -200,9 +199,9 @@ const products = [
   {
     title: "Sun Films",
     icon: <MdOutlineWbSunny />,
-    heading:"Advanced Automative Accessories",
+    heading:"Advanced Window Protection",
     description:
-      "Heat-resistant sun films providing privacy, UV protection, and stylish appearance for vehicles.",
+      "Premium sun films help reduce heat, improve privacy, block harmful rays, and enhance driving comfort during travel.",
 
     banner:SunFilms,
 
@@ -236,9 +235,9 @@ const products = [
   {
     title: "Reverse Cameras",
     icon: <FaCamera />,
-    heading:"Advanced Automative Accessories",
+    heading:"Smart Safety Solutions",
     description:
-      "Advanced reverse parking systems designed for safer, smarter, and easier driving experience.",
+      "Advanced reverse camera systems provide improved rear visibility, safer parking assistance, and enhanced driving confidence every day.",
 
     banner:ReverseCamera,
 
@@ -286,14 +285,14 @@ const ProductSection = () => {
           </span>
 
           <h2 className="text-3xl sm:text-4xl lg:text-6xl font-black text-gray-900 mt-4">
-            Car Accessories
+            Car Accessories in Coimbatore
           </h2>
 
           <div className="w-24 h-[3px] bg-[#EF993A] mx-auto mt-6"></div>
 
           <p className="text-gray-600 max-w-2xl mx-auto mt-5 text-sm sm:text-base lg:text-lg leading-relaxed">
-            Explore premium automotive accessories crafted
-            for luxury, comfort, and performance.
+            Discover premium automotive accessories designed for comfort, style,
+            and enhanced driving performance.
           </p>
 
         </div>

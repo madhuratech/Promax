@@ -11,33 +11,33 @@ import {
 
 const faqData = [
   {
-    question: "Which speaker brands are available at PROMAX?",
+    question: "Can I customize my car accessories based on my style?",
     answer:
-      "We offer Alpine, Pioneer, Sony, JBL, Morel, Kenwood, Nakamichi, DD Audio, and many other premium car audio brands.",
+      "Absolutely! We provide personalized customization options to match your car’s look, comfort, and performance needs.",
     icon: <Speaker size={22} />,
   },
   {
-    question: "Do you provide professional audio installation?",
+    question: "How long does a complete car makeover take?",
     answer:
-      "Yes, we provide complete audio setup, DSP tuning, clean wiring, and professional installation services for all car models.",
+      "Depending on the package and accessories chosen, most upgrades are completed within the same day or 1-2 working days.",
     icon: <Wrench size={22} />,
   },
   {
-    question: "What is the difference between 2-way and 3-way audio systems?",
+    question: "Do you offer premium lighting upgrades for night driving?",
     answer:
-      "2-way systems include tweeters and woofers, while 3-way systems add dedicated mid-range speakers for enhanced clarity and balanced sound output.",
+      "Yes, we install high-performance LED bulbs and fog projectors for better visibility and a stylish road presence.",
     icon: <Speaker size={22} />,
   },
   {
-    question: "Do you provide seat cover and mat installation?",
+    question: "Will sun control films really reduce cabin heat?",
     answer:
-      "Yes, we offer premium seat covers, floor mats, custom fitting, and professional installation services.",
+      "Yes, our premium sun control films help reduce heat, glare, and UV exposure, making your drive cooler and more comfortable.",
     icon: <CarFront size={22} />,
   },
   {
-    question: "Are your products genuine?",
+    question: "Why choose PROMAX Car Accessories over others?",
     answer:
-      "Yes, all products available at PROMAX are 100% original branded products with assured quality and reliability.",
+      "PROMAX combines premium products, expert installation, stylish customization, and customer-focused service to give your car a standout finish.",
     icon: <BadgeCheck size={22} />,
   },
 ];
@@ -64,8 +64,8 @@ const FAQSection = () => {
           </h2>
 
           <p className="text-gray-600 max-w-3xl mx-auto mt-5 text-lg leading-relaxed">
-            Find answers about our premium car audio systems, accessories,
-            installation services, branded products, and tuning solutions.
+           Find answers about PROMAX audio installations, customization services, pricing,
+           warranties, and professional support solutions.
           </p>
         </div>
 

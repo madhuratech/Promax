@@ -9,7 +9,7 @@ const testimonials = [
   {
     title: "Fast & Efficient",
     review:
-      "PROMAX delivered a clean and professional car audio installation with excellent finishing. Their team completed the setup quickly while maintaining premium quality.",
+      "Excellent sound quality and professional installation! The team at PROMAX completed my car audio setup perfectly with clean wiring and great finishing.",
     name: "Arun Kumar",
     role: "3-Way Audio Setup",
     company: "@promax",
@@ -19,7 +19,7 @@ const testimonials = [
   {
     title: "Wow Effect",
     review:
-      "The sound clarity and bass tuning completely transformed my driving experience. PROMAX provided the perfect balance of performance and professional support.",
+      "PROMAX transformed my driving experience with amazing bass and crystal-clear audio. Their technicians were skilled and very supportive.",
     name: "Vignesh",
     role: "DSP Tuning",
     company: "@promax",
@@ -29,7 +29,7 @@ const testimonials = [
   {
     title: "Creative",
     review:
-      "Very friendly team with genuine products and affordable pricing. The installation quality and customer handling were truly impressive.",
+      "Very satisfied with the service and pricing. They explained every detail clearly and installed everything neatly and professionally.",
     name: "Jennifer",
     role: "Premium Interior Upgrade",
     company: "@promax",
@@ -39,7 +39,7 @@ const testimonials = [
   {
     title: "Professional",
     review:
-      "The installation was neat and perfectly finished. PROMAX handled everything professionally and delivered exactly what I expected.",
+      "The customized audio tuning was outstanding. My car now feels like a premium music studio on wheels!",
     name: "Sathish",
     role: "Speaker Upgrade",
     company: "@promax",
@@ -49,7 +49,7 @@ const testimonials = [
   {
     title: "Premium Quality",
     review:
-      "Excellent customer support and genuine branded products. The team explained everything clearly before installation.",
+      "Highly recommended for anyone looking to upgrade their car audio system in Coimbatore. Professional team with years of experience.",
     name: "Karthik",
     role: "Car Interior Customization",
     company: "@promax",

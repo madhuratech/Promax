@@ -17,12 +17,12 @@ const CTASection = () => {
             </span>
 
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
-              Upgrade Your Car Today
+              Upgrade Your Ride Today
             </h2>
 
             <p className="text-gray-600 text-lg leading-relaxed max-w-2xl">
-              Transform your car with premium accessories and professional
-              audio setups from{" "}
+              Connect for premium car accessories, audio upgrades, and professional
+               installation support services today  {" "}
               <span className="font-semibold text-gray-900">
                 PROMAX Car Accessories
               </span>.

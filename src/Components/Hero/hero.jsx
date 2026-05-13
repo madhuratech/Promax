@@ -1,5 +1,5 @@
 import { FaArrowRight, FaStar } from "react-icons/fa";
-
+import Hero from "../../assets/Logo/Hero.jpg"
 export default function HeroSection() {
     return (
         <section className="relative min-h-screen overflow-hidden bg-white text-black">
@@ -9,7 +9,7 @@ export default function HeroSection() {
 
                 {/* MAIN IMAGE */}
                 <img
-                    src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070&auto=format&fit=crop"
+                    src={Hero}
                     alt="Luxury Car"
                     className="h-full w-full object-cover scale-105"
                 />
