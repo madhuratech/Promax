@@ -11,22 +11,22 @@ import {
 } from "react-icons/md";
 
 // Car Audio Systems
-import Mainaudio from "../../assets/Audio/Mainaudio.jpg"
-import Amplifier from "../../assets/Audio/Amplifier.jpg"
-import DSP from "../../assets/Audio/DSP.jpg"
-import Subwoofers from "../../assets/Audio/Subwoofers.jpg"
-import Tweeters from "../../assets/Audio/Tweeters.jpg"
+import Mainaudio from "../../assets/Audio/Mainaudio.png"
+import Amplifier from "../../assets/Audio/Amplifier.png"
+import DSP from "../../assets/Audio/DSP.png"
+import Subwoofers from "../../assets/Audio/Subwoofers.png"
+import Tweeters from "../../assets/Audio/Tweeters.png"
 
 // Seat Covers
 import Seat from "../../assets/SeatCovers/Seat.jpg"
-import Leather from "../../assets/SeatCovers/Leather.jpg"
-import Luxury from "../../assets/SeatCovers/Luxury.jpg"
-import Cuisine from "../../assets/SeatCovers/Cuisine.jpg"
-import Custom from "../../assets/SeatCovers/Custom.jpg"
+import Leather from "../../assets/SeatCovers/Leather.png"
+import Luxury from "../../assets/SeatCovers/Luxury.png"
+import Cuisine from "../../assets/SeatCovers/Cuisine.png"
+import Custom from "../../assets/SeatCovers/Custom.png"
 
 // Car Mats
 import CarMats from "../../assets/Mats/CarMats.jpg"
-import sevenMats from "../../assets/Mats/sevenMats.jpg"
+import sevenMats from "../../assets/Mats/seven.png"
 import pvc from "../../assets/Mats/pvc.jpg"
 import Waterproof from "../../assets/Mats/Waterproof.jpg"
 import Premium from "../../assets/Mats/Premium.jpg"
@@ -42,45 +42,45 @@ import Tint from "../../assets/Film/Tint.jpg"
 import ReverseCamera from "../../assets/Camera/ReverseCamera.jpg"
 import HDCamera from "../../assets/Camera/HDCamera.jpg"
 import Sensor from "../../assets/Camera/Sensor.jpg"
-import NightVision from "../../assets/Camera/NightVision.jpg"
-import FullCamera from "../../assets/Camera/FullCamera.jpg"
+import dvr from "../../assets/Camera/dvr.png"
+import FullCamera from "../../assets/Camera/FullCamera.png"
 
 
 const products = [
   {
     title: "Car Audio Systems",
     icon: <FaVolumeUp />,
-    heading:"Advanced Automative Accessories",
+    heading: "Advanced Automative Accessories",
     description:
       "Upgrade your driving entertainment with an advanced car audio system in Coimbatore delivering crystal-clear sound quality and powerful bass performance.",
 
-    banner:Mainaudio,
-      
+    banner: Mainaudio,
+
 
     items: [
       {
         name: "Amplifiers",
         description: "High-power amplifiers for superior sound clarity.",
-        image:Amplifier,
-          
+        image: Amplifier,
+
       },
 
       {
         name: "DSP Processors",
         description: "Advanced digital sound tuning systems.",
-        image:DSP,
+        image: DSP,
       },
 
       {
         name: "Subwoofers",
         description: "Deep bass enhancement for music lovers.",
-        image:Subwoofers,
+        image: Subwoofers,
       },
 
       {
         name: "Tweeters",
         description: "Crisp and balanced high-frequency sound output.",
-        image:Tweeters,
+        image: Tweeters,
       },
     ],
   },
@@ -88,34 +88,34 @@ const products = [
   {
     title: "Seat Covers",
     icon: <FaChair />,
-    heading:"Premium Interior Accessories",
+    heading: "Premium Interior Accessories",
     description:
       "Premium seat covers designed for stylish interiors, enhanced comfort, durability, and long-lasting protection for every vehicle.",
-    banner:Seat,
+    banner: Seat,
 
     items: [
       {
         name: "Leather Covers",
         description: "Elegant premium leather finish interiors.",
-        image:Leather,
+        image: Leather,
       },
 
       {
         name: "Luxury Covers",
         description: "Modern stitched designer seat collections.",
-        image:Luxury,
+        image: Luxury,
       },
 
       {
         name: "Cushion Support",
         description: "Enhanced comfort for long drives.",
-        image:Cuisine,
+        image: Cuisine,
       },
 
       {
         name: "Custom Fit",
         description: "Perfect fitting for all car models.",
-        image:Custom,
+        image: Custom,
       },
     ],
   },
@@ -167,31 +167,31 @@ const products = [
     description:
       "Durable car mats crafted for interior cleanliness, maximum floor protection, stylish appearance, and everyday driving comfort.",
 
-    banner:CarMats,
+    banner: CarMats,
 
     items: [
       {
         name: "7D Mats",
         description: "Luxury layered premium floor protection.",
-        image:sevenMats,
+        image: sevenMats,
       },
 
       {
         name: "PVC Mats",
         description: "Durable and easy-to-clean floor mats.",
-        image:pvc,
+        image: pvc,
       },
 
       {
         name: "Waterproof Mats",
         description: "Complete dirt and spill protection.",
-        image:Waterproof,
+        image: Waterproof,
       },
 
       {
         name: "Premium Floor Mats",
         description: "Stylish interiors with premium finish.",
-        image:Premium,
+        image: Premium,
       },
     ],
   },
@@ -199,35 +199,35 @@ const products = [
   {
     title: "Sun Films",
     icon: <MdOutlineWbSunny />,
-    heading:"Advanced Window Protection",
+    heading: "Advanced Window Protection",
     description:
       "Premium sun films help reduce heat, improve privacy, block harmful rays, and enhance driving comfort during travel.",
 
-    banner:SunFilms,
+    banner: SunFilms,
 
     items: [
       {
         name: "Heat Control",
         description: "Reduces cabin heat and improves comfort.",
-        image:HeatControl,
+        image: HeatControl,
       },
 
       {
         name: "Privacy Films",
         description: "Enhanced privacy and premium aesthetics.",
-        image:Privacy,
+        image: Privacy,
       },
 
       {
         name: "UV Protection",
         description: "Blocks harmful UV rays effectively.",
-        image:Shield,
+        image: Shield,
       },
 
       {
         name: "Black Tint Films",
         description: "Stylish dark finish with premium look.",
-        image:Tint,
+        image: Tint,
       },
     ],
   },
@@ -235,35 +235,35 @@ const products = [
   {
     title: "Reverse Cameras",
     icon: <FaCamera />,
-    heading:"Smart Safety Solutions",
+    heading: "Smart Safety Solutions",
     description:
       "Advanced reverse camera systems provide improved rear visibility, safer parking assistance, and enhanced driving confidence every day.",
 
-    banner:ReverseCamera,
+    banner: ReverseCamera,
 
     items: [
       {
         name: "HD Cameras",
         description: "Crystal clear parking visibility.",
-        image:HDCamera,
+        image: HDCamera,
       },
 
       {
         name: "Parking Sensors",
         description: "Accurate parking assistance technology.",
-        image:Sensor,
+        image: Sensor,
       },
 
       {
-        name: "Night Vision",
-        description: "Enhanced visibility during night driving.",
-        image:NightVision,
+        name: "DVR Camera",
+        description: "High-quality recording for safety and security.",
+        image: dvr,
       },
 
       {
         name: "360° Camera",
         description: "Complete surround parking assistance.",
-        image:FullCamera,
+        image: FullCamera,
       },
     ],
   },
@@ -343,7 +343,7 @@ const ProductSection = () => {
                   </span>
 
                   <h2 className="text-2xl sm:text-3xl lg:text-5xl font-black text-gray-900 mt-3 leading-tight">
-                   {product.heading}
+                    {product.heading}
                   </h2>
 
                   <div className="w-20 h-[3px] bg-[#EF993A] mt-6 mb-6"></div>
@@ -356,41 +356,52 @@ const ProductSection = () => {
 
               </div>
 
-              {/* PRODUCT ITEMS */}
-              <div className="border-t border-gray-200 bg-[#fafafa] p-4 sm:p-6">
 
-                <div className="flex gap-4 overflow-x-auto scrollbar-hide pb-2">
+              {/* PRODUCT ITEMS */}
+              {/* PRODUCT ITEMS */}
+              <div className="border-t border-gray-200 bg-[#fafafa] p-6 lg:p-10">
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
                   {product.items.map((item, itemIndex) => (
 
                     <div
                       key={itemIndex}
-                      className="min-w-[250px] bg-white border border-gray-200 overflow-hidden hover:border-[#EF993A] hover:-translate-y-1 transition-all duration-300"
+                      className="group bg-white overflow-hidden border border-gray-200 hover:border-[#EF993A] hover:shadow-2xl transition-all duration-500"
                     >
 
-                      {/* IMAGE */}
-                      <div className="h-[170px] overflow-hidden">
+                      {/* LANDSCAPE IMAGE */}
+                      <div className="relative h-[260px] sm:h-[320px] lg:h-[360px] overflow-hidden">
 
                         <img
                           src={item.image}
                           alt={item.name}
-                          className="w-full h-full object-cover hover:scale-105 transition duration-700"
+                          className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                         />
+
+                        {/* DARK OVERLAY */}
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+
+                        {/* NUMBER */}
+                        <div className="absolute top-5 left-5 bg-[#EF993A] text-white font-bold px-4 py-2 text-sm tracking-wide">
+                          0{itemIndex + 1}
+                        </div>
+
+                        {/* TITLE */}
+                        <div className="absolute bottom-0 left-0 p-6">
+
+                          <h4 className="text-white text-2xl lg:text-3xl font-black">
+                            {item.name}
+                          </h4>
+
+                        </div>
 
                       </div>
 
                       {/* CONTENT */}
-                      <div className="p-5">
+                      <div className="p-6 lg:p-7">
 
-                        <div className="text-[#EF993A] font-bold text-sm mb-2">
-                          0{itemIndex + 1}
-                        </div>
-
-                        <h4 className="font-bold text-gray-900 text-base mb-2">
-                          {item.name}
-                        </h4>
-
-                        <p className="text-sm text-gray-500 leading-relaxed">
+                        <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
                           {item.description}
                         </p>
 
@@ -403,7 +414,6 @@ const ProductSection = () => {
                 </div>
 
               </div>
-
             </div>
 
           ))}
