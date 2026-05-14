@@ -217,12 +217,12 @@ export default function AudioBrandsSection() {
 
           <div className="relative z-10">
             <h3 className="text-3xl md:text-4xl font-black text-white leading-tight">
-              Experience World-Class Car Audio Brands
+              Advanced Car Audio Solutions
             </h3>
 
             <p className="text-white/90 mt-4 max-w-2xl text-lg leading-relaxed">
-              Discover premium automotive audio brands offering powerful sound, advanced features,
-              crystal-clear clarity, and immersive entertainment for every driving experience.
+              Explore PROMAX premium automotive audio solutions from globally recognized 
+              brands delivering exceptional sound quality, advanced technology, and reliable performance.
             </p>
           </div>
 
