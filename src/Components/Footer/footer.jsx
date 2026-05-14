@@ -3,6 +3,8 @@ import {
     FaWhatsapp,
 } from "react-icons/fa";
 
+import {Link} from "react-router-dom";
+
 import Promaxcbe from "../../assets/Logo/Promaxcbe.png"
 const Footer = () => {
     return (
@@ -66,12 +68,12 @@ const Footer = () => {
                         Brands
                     </a>
 
-                    <a
-                        href="/contact"
+                    <Link
+                        to="/contact"
                         className="text-gray-400 hover:text-[#EF993A] transition duration-300"
                     >
                         Contact
-                    </a>
+                    </Link>
 
                 </div>
 
@@ -117,7 +119,7 @@ const Footer = () => {
                             href="https://madhuratech.com" target="_blank"
                             className="transition"
                         >
-                           Tuned by <span className="font-bold text-[#EF993A]">MADHURA TECH</span>
+                            Tuned by <span className="font-bold text-[#EF993A]">MADHURA TECH</span>
                         </a>
 
                     </div>
