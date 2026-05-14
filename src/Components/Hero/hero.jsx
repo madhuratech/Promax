@@ -1,5 +1,5 @@
 import { FaArrowRight, FaStar } from "react-icons/fa";
-import Hero from "../../assets/Logo/Hero.png"
+import HeroImage from "../../assets/Logo/HeroImage.png"
 export default function HeroSection() {
     return (
         <section className="relative min-h-screen overflow-hidden bg-white text-black">
@@ -9,13 +9,13 @@ export default function HeroSection() {
 
                 {/* MAIN IMAGE */}
                 <img
-                    src={Hero}
+                    src={HeroImage}
                     alt="Luxury Car"
                     className="h-full w-full object-cover scale-105"
                 />
 
                 {/* DARK OVERLAY */}
-                {/* <div className="absolute inset-0 bg-black/40"></div> */}
+                <div className="absolute inset-0 bg-black/20"></div>
 
                 {/* LEFT GRADIENT */}
                 <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/50 to-transparent"></div>

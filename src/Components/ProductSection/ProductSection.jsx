@@ -40,10 +40,11 @@ import Tint from "../../assets/Film/Tint.jpg"
 
 // Camera
 import ReverseCamera from "../../assets/Camera/ReverseCamera.jpg"
-import HDCamera from "../../assets/Camera/HDCamera.jpg"
-import Sensor from "../../assets/Camera/Sensor.jpg"
+import hdCamera from "../../assets/Camera/hdCamera.png"
+// import Sensor from "../../assets/Camera/Sensor.jpg"
 import dvr from "../../assets/Camera/dvr.png"
 import FullCamera from "../../assets/Camera/FullCamera.png"
+import ParkingSensor from "../../assets/Camera/ParkingSensor.png"
 
 
 const products = [
@@ -245,13 +246,13 @@ const products = [
       {
         name: "HD Cameras",
         description: "Crystal clear parking visibility.",
-        image: HDCamera,
+        image: hdCamera,
       },
 
       {
         name: "Parking Sensors",
         description: "Accurate parking assistance technology.",
-        image: Sensor,
+        image: ParkingSensor,
       },
 
       {

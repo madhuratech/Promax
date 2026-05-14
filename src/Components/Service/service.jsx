@@ -1,5 +1,5 @@
-import TwoWayAudio from "../../assets/Service/TwoWayAudio.jpg";
-import ThreeWayAudio from "../../assets/Service/ThreeWayAudio.jpg";
+import TwoWayAudio from "../../assets/Service/TwoWayAudio.png";
+import ThreeWayAudio from "../../assets/Service/ThreeWayAudio.png";
 import AudioInstallation from "../../assets/Service/AudioInstallation.jpg";
 
 function ServiceSection() {
