@@ -1,8 +1,8 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
 body {
-  /* font-family: "Open Sans", sans-serif; */
-  /* font-family:"monteszrrat", sans-serif; */
+
    font-family: "Jost", sans-serif;
 }
 /* Add this in index.css */
