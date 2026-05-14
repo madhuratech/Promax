@@ -8,6 +8,7 @@ import GallerySection from '../Components/Gallery/gallery'
 import TestimonialsSection from '../Components/Testimonial/testimonialSection';
 import FAQSection from '../Components/FAQ/faq'
 import CTASection from '../Components/CallToAction/calltoaction'
+// import BeforeAfter from '../Components/Transform/transformation'
 
 function Home() {
     return (
@@ -19,6 +20,7 @@ function Home() {
             <ProductSection />
             <Whychoose />
             <GallerySection />
+            {/* <BeforeAfter/> */}
             <TestimonialsSection />
             <FAQSection />
             <CTASection />
