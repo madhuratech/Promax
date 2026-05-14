@@ -43,7 +43,7 @@ const CTASection = () => {
 
             {/* Consultation Button */}
             <a
-              href="tel:+919003680296"
+              href="tel:+919943366663"
               className="flex items-center justify-center gap-3 border border-gray-300 hover:border-[#EF993A] hover:text-[#EF993A] text-gray-800 font-semibold px-8 py-4 transition-all duration-300 bg-white"
             >
               <MessageCircle size={20} />

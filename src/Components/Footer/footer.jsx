@@ -90,7 +90,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                        href="https://wa.me/919003680296?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"
+                        href="https://wa.me/919943366663?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"
                         target="_blank"
                         rel="noreferrer"
                         className="w-12 h-12 rounded-full border border-[#2c2c2c] bg-[#111111] flex items-center justify-center text-[#EF993A] hover:bg-[#EF993A] hover:text-black transition duration-300"

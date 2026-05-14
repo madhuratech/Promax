@@ -113,7 +113,7 @@ const Navbar = () => {
 
                         {/* PHONE */}
                         <a
-                            href="tel:+919003680296"
+                            href="tel:+919943366663"
                             className="hidden md:flex items-center gap-2 border border-[#262626] px-4 py-2 text-sm text-gray-300 hover:border-[#EF993A] transition"
                         >
                             <Phone
@@ -122,13 +122,13 @@ const Navbar = () => {
                             />
 
                             <span>
-                                +91 9003680296
+                                +91 9943366663
                             </span>
                         </a>
 
                         {/* BUTTON */}
                         <a
-                            href="tel:+919003680296"
+                            href="tel:+919943366663"
                             className="hidden md:block bg-[#EF993A] hover:bg-[#d88323] text-white text-sm font-semibold px-5 py-2 transition duration-300"
                         >
                             Get Quote
@@ -175,7 +175,7 @@ const Navbar = () => {
 
                         {/* CONTACT */}
                         <Link
-                            to="/#contact"
+                            to="/contact"
                             onClick={() => {
                                 setMobileMenu(false);
                                 setActiveMenu("contact");

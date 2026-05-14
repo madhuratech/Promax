@@ -19,7 +19,7 @@ function App() {
 
       {/* MOBILE STICKY WHATSAPP BUTTON */}
       <a
-        href="https://wa.me/919003680296?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"
+        href="https://wa.me/919943366663?text=Hello%20I%20want%20to%20know%20more%20about%20your%20services"
         target="_blank"
         rel="noopener noreferrer"
         className="

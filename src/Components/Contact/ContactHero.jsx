@@ -44,7 +44,7 @@ const ContactHero = () => {
                         <div className="flex flex-wrap gap-5 mt-10">
 
                             <a
-                                href="tel:+919003680296"
+                                href="tel:+919943366663"
                                 className="group flex items-center gap-3 bg-[#EF993A] hover:bg-[#ffaa4d] transition-all duration-300 px-7 py-4 rounded-xl text-black font-semibold shadow-[0_10px_30px_rgba(239,153,58,0.25)]"
                             >
                                 <FaPhoneAlt className="group-hover:rotate-12 transition duration-300" />
@@ -52,7 +52,7 @@ const ContactHero = () => {
                             </a>
 
                             <a
-                                href="https://wa.me/919003680296"
+                                href="https://wa.me/919943366663"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="flex items-center gap-3 border border-[#2a2a2a] hover:border-[#EF993A] hover:bg-[#151515] transition-all duration-300 px-7 py-4 rounded-xl font-medium"
@@ -151,7 +151,7 @@ const ContactHero = () => {
                                         </h4>
 
                                         <p className="text-gray-400 mt-1">
-                                            +91 9003680296
+                                            +91 9943366663
                                         </p>
                                     </div>
                                 </div>

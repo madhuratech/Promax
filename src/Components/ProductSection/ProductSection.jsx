@@ -46,6 +46,11 @@ import dvr from "../../assets/Camera/dvr.png"
 import FullCamera from "../../assets/Camera/FullCamera.png"
 import ParkingSensor from "../../assets/Camera/ParkingSensor.png"
 
+// Lighting
+import Led from "../../assets/Light/Led.png"
+import Fog from "../../assets/Light/Fog.png"
+import Light from "../../assets/Light/Light.png"
+
 
 const products = [
   {
@@ -268,6 +273,29 @@ const products = [
       },
     ],
   },
+  {
+  title: "Car Lighting",
+  icon: <MdOutlineWbSunny />,
+  heading: "Premium Lighting Solutions",
+  description:
+    "Upgrade your vehicle with advanced LED lighting systems for improved night visibility, stylish appearance, and enhanced driving safety.",
+
+  banner: Light,
+
+  items: [
+    {
+      name: "LED Bulbs",
+      description: "High-brightness LED bulbs for superior road visibility.",
+      image: Led,
+    },
+
+    {
+      name: "Fog Projectors",
+      description: "Powerful projector lights designed for fog and low-light driving.",
+      image: Fog,
+    },
+  ],
+},
 ];
 
 const ProductSection = () => {
