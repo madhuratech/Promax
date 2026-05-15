@@ -7,14 +7,14 @@ import {
 } from "lucide-react";
 
 import Alpine from "../../assets/AudioBrands/Alpine.svg";
-import Morel from "../../assets/AudioBrands/Morel.png";
-import Audison from "../../assets/AudioBrands/Audison.jpeg";
+import Morel from "../../assets-avif/AudioBrands/Morel.avif";
+import Audison from "../../assets-avif/AudioBrands/Audison.avif";
 import Steg from "../../assets/AudioBrands/Steg.svg";
-import Focal from "../../assets/AudioBrands/Focal.png";
-import Feelart from "../../assets/AudioBrands/Feelart.png";
+import Focal from "../../assets-avif/AudioBrands/Focal.avif";
+import Feelart from "../../assets-avif/AudioBrands/Feelart.avif";
 import DDAudio from "../../assets/AudioBrands/DDAudio.svg";
 import Cadence from "../../assets/AudioBrands/Cadence.svg";
-import MaxLink from "../../assets/AudioBrands/Maxlink.png";
+import MaxLink from "../../assets-avif/AudioBrands/Maxlink.avif";
 import Pioneer from "../../assets/AudioBrands/Pioneer.svg";
 import Sony from "../../assets/AudioBrands/Sony.svg";
 import JBL from "../../assets/AudioBrands/JBL.svg";
@@ -200,6 +200,7 @@ export default function AudioBrandsSection() {
                 <img
                   src={brand.image}
                   alt={brand.name}
+                  loading="lazy"
                   className="w-32 h-20 object-contain transition duration-500 group-hover:scale-110"
                 />
 

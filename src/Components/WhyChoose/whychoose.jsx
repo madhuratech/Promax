@@ -6,7 +6,7 @@ import {
   Headphones,
 } from "lucide-react";
 
-import Promax from "../../assets/WhyChoose/Promax.png";
+import Promax from "../../assets-avif/WhyChoose/Promax.avif";
 
 function Whychoose() {
   return (
@@ -203,6 +203,7 @@ function Whychoose() {
               <img
                 src={Promax}
                 alt="PROMAX Car Audio"
+                loading="lazy"
                 className="
                   w-full
                   max-w-[500px]

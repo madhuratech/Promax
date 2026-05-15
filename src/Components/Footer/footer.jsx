@@ -5,7 +5,7 @@ import {
 
 import {Link} from "react-router-dom";
 
-import Promaxcbe from "../../assets/Logo/Promaxcbe.png"
+import Promaxcbe from "../../assets-avif/Logo/Promaxcbe.avif"
 const Footer = () => {
     return (
         <footer className="bg-black text-white border-t border-[#1a1a1a]">
@@ -19,6 +19,7 @@ const Footer = () => {
                     <img
                         src={Promaxcbe}
                         alt="PROMAX Logo"
+                        loading="lazy"
                         className="w-52 md:w-64 object-contain"
                     />
 

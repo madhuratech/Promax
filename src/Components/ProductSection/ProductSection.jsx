@@ -11,45 +11,45 @@ import {
 } from "react-icons/md";
 
 // Car Audio Systems
-import Mainaudio from "../../assets/Audio/Mainaudio.png"
-import Amplifier from "../../assets/Audio/Amplifier.png"
-import DSP from "../../assets/Audio/DSP.png"
-import Subwoofers from "../../assets/Audio/Subwoofers.png"
-import Tweeters from "../../assets/Audio/Tweeters.png"
+import Mainaudio from "../../assets-avif/Audio/Mainaudio.avif"
+import Amplifier from "../../assets-avif/Audio/Amplifier.avif"
+import DSP from "../../assets-avif/Audio/DSP.avif"
+import Subwoofers from "../../assets-avif/Audio/Subwoofers.avif"
+import Tweaters from "../../assets-avif/Audio/Tweaters.avif"
 
 // Seat Covers
-import Seat from "../../assets/SeatCovers/Seat.jpg"
-import Leather from "../../assets/SeatCovers/Leather.png"
-import Luxury from "../../assets/SeatCovers/Luxury.png"
-import Cuisine from "../../assets/SeatCovers/Cuisine.png"
-import Custom from "../../assets/SeatCovers/Custom.png"
+import Seat from "../../assets-avif/SeatCovers/Seat.avif"
+import Leather from "../../assets-avif/SeatCovers/Leather.avif"
+import Luxury from "../../assets-avif/SeatCovers/Luxury.avif"
+import Cuisine from "../../assets-avif/SeatCovers/Cuisine.avif"
+import Custom from "../../assets-avif/SeatCovers/Custom.avif"
 
 // Car Mats
-import CarMats from "../../assets/Mats/CarMats.jpg"
-import sevenMats from "../../assets/Mats/seven.png"
-import pvc from "../../assets/Mats/pvc.jpg"
-import Waterproof from "../../assets/Mats/Waterproof.jpg"
-import Premium from "../../assets/Mats/Premium.jpg"
+import CarMats from "../../assets-avif/Mats/CarMats.avif"
+import sevenMats from "../../assets-avif/Mats/seven.avif"
+import pvc from "../../assets-avif/Mats/pvc.avif"
+import Waterproof from "../../assets-avif/Mats/Waterproof.avif"
+import Premium from "../../assets-avif/Mats/Premium.avif"
 
 // Tint
-import SunFilms from "../../assets/Film/SunFilms.jpg"
-import HeatControl from "../../assets/Film/HeatControl.jpg"
-import Privacy from "../../assets/Film/Privacy.jpg"
-import Shield from "../../assets/Film/Shield.jpg"
-import Tint from "../../assets/Film/Tint.jpg"
+import SunFilms from "../../assets-avif/Film/SunFilms.avif"
+import HeatControl from "../../assets-avif/Film/HeatControl.avif"
+import Privacy from "../../assets-avif/Film/Privacy.avif"
+import Shield from "../../assets-avif/Film/Shield.avif"
+import Tint from "../../assets-avif/Film/Tint.avif"
 
 // Camera
-import ReverseCamera from "../../assets/Camera/ReverseCamera.jpg"
-import hdCamera from "../../assets/Camera/hdCamera.png"
-// import Sensor from "../../assets/Camera/Sensor.jpg"
-import dvr from "../../assets/Camera/dvr.png"
-import FullCamera from "../../assets/Camera/FullCamera.png"
-import ParkingSensor from "../../assets/Camera/ParkingSensor.png"
+import ReverseCamera from "../../assets-avif/Camera/ReverseCamera.avif"
+import hdCamera from "../../assets-avif/Camera/hdCamera.avif"
+// import Sensor from "../../assets-avif/Camera/Sensor.avif"
+import dvr from "../../assets-avif/Camera/dvr.avif"
+import FullCamera from "../../assets-avif/Camera/FullCamera.avif"
+import ParkingSensor from "../../assets-avif/Camera/ParkingSensor.avif"
 
 // Lighting
-import Led from "../../assets/Light/Led.png"
-import Fog from "../../assets/Light/Fog.png"
-import Light from "../../assets/Light/Light.png"
+import Led from "../../assets-avif/Light/Led.avif"
+import Fog from "../../assets-avif/Light/Fog.avif"
+import Light from "../../assets-avif/Light/Light.avif"
 
 
 const products = [
@@ -86,7 +86,7 @@ const products = [
       {
         name: "Tweeters",
         description: "Crisp and balanced high-frequency sound output.",
-        image: Tweeters,
+        image: Tweaters,
       },
     ],
   },
@@ -345,6 +345,7 @@ const ProductSection = () => {
                   <img
                     src={product.banner}
                     alt={product.title}
+                    loading="lazy"
                     className="w-full h-full object-cover"
                   />
 
@@ -405,6 +406,7 @@ const ProductSection = () => {
                         <img
                           src={item.image}
                           alt={item.name}
+                          loading="lazy"
                           className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
                         />
 

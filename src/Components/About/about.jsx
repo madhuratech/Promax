@@ -1,4 +1,4 @@
-import about from "../../assets/WhyChoose/About.jpg"
+import about from "../../assets-avif/WhyChoose/About.avif"
 
 function AboutSection() {
     return (
@@ -24,6 +24,7 @@ function AboutSection() {
                             <img
                                 src={about}
                                 alt="PROMAX Car Accessories"
+                                loading="lazy"
                                 className="w-full h-[350px] sm:h-[450px] md:h-[520px] object-cover shadow-2xl rounded-lg"
                             />
 

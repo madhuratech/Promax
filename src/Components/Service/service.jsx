@@ -1,6 +1,6 @@
-import TwoWayAudio from "../../assets/Service/TwoWayAudio.png";
-import ThreeWayAudio from "../../assets/Service/ThreeWayAudio.png";
-import AudioInstallation from "../../assets/Service/AudioInstallation.jpg";
+import TwoWayAudio from "../../assets-avif/Service/TwoWayAudio.avif";
+import ThreeWayAudio from "../../assets-avif/Service/ThreeWayAudio.avif";
+import AudioInstallation from "../../assets-avif/Service/AudioInstallation.avif";
 
 function ServiceSection() {
     return (
@@ -50,6 +50,7 @@ function ServiceSection() {
                             <img
                                 src={TwoWayAudio}
                                 alt="2 Way Audio Setup"
+                                loading="lazy"
                                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                             />
 
@@ -106,6 +107,7 @@ function ServiceSection() {
                             <img
                                 src={ThreeWayAudio}
                                 alt="3 Way Audio Setup"
+                                loading="lazy"
                                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                             />
 
@@ -162,6 +164,7 @@ function ServiceSection() {
                             <img
                                 src={AudioInstallation}
                                 alt="Complete Audio Installation"
+                                loading="lazy"
                                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                             />
 

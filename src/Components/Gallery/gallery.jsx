@@ -9,12 +9,12 @@ import {
 
 import { FaInstagram } from "react-icons/fa";
 
-import volks from "../../assets/Gallery/volks.mp4";
-import Innova from "../../assets/Gallery/innova.mp4";
-import AudUpgrade from "../../assets/Gallery/audupgrade.mp4";
-import Promax from "../../assets/Gallery/promax.mp4";
-import caraccess from "../../assets/Gallery/caraccess.mp4";
-import Alpine from "../../assets/Gallery/alpine.mp4";
+import volks from "../../assets/Gallery-webm/volks.webm";
+import Innova from "../../assets/Gallery-webm/innova.webm";
+import AudUpgrade from "../../assets/Gallery-webm/audupgrade.webm";
+import Promax from "../../assets/Gallery-webm/promax.webm";
+import caraccess from "../../assets/Gallery-webm/caraccess.webm";
+import Alpine from "../../assets/Gallery-webm/alpine.webm";
 
 const galleryItems = [
     {

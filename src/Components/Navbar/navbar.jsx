@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
-import Promaxcbe from "../../assets/logo/Promaxcbe.png";
+import Promaxcbe from "../../assets-avif/logo/Promaxcbe.avif";
 
 
 const Navbar = () => {
@@ -70,6 +70,7 @@ const Navbar = () => {
                             <img
                                 src={Promaxcbe}
                                 alt="Promax Icon"
+                                loading="lazy"
                                 className="w-42 md:w-56  object-contain "
                             />
                         </div>
