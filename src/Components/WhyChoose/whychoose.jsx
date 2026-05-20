@@ -202,7 +202,7 @@ function Whychoose() {
               {/* Car Image */}
               <img
                 src={Promax}
-                alt="PROMAX Car Audio"
+                alt="Best car audio system in coimbatore2"
                 loading="lazy"
                 className="
                   w-full

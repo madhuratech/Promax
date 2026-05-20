@@ -10,7 +10,7 @@ export default function HeroSection() {
                 {/* MAIN IMAGE */}
                 <img
                     src={HeroImage}
-                    alt="Luxury Car"
+                    alt="Best car accessories in Coimbatore"
                     loading="lazy"
                     className="h-full w-full object-cover scale-105"
                 />

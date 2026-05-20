@@ -79,7 +79,7 @@ const FAQSection = () => {
             <div className="relative  overflow-hidden shadow-2xl">
               <img
                 src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1400&auto=format&fit=crop"
-                alt="PROMAX Car Accessories"
+                alt="Best car audio system in Coimbatore3"
                 loading="lazy"
                 className="w-full h-[620px] object-cover"
               />

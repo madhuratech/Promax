@@ -141,16 +141,10 @@ const GallerySection = () => {
                                                     size={34}
                                                     className="text-white"
                                                 />
-
                                             </div>
-
                                         </div>
-
                                 </div>
                             </a>
-
-                          
-
                         </div>
                     ))}
 

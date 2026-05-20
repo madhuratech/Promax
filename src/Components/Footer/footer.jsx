@@ -18,7 +18,7 @@ const Footer = () => {
 
                     <img
                         src={Promaxcbe}
-                        alt="PROMAX Logo"
+                        alt="Best car audio system in Coimbatore4"
                         loading="lazy"
                         className="w-52 md:w-64 object-contain"
                     />

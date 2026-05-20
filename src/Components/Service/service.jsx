@@ -49,7 +49,7 @@ function ServiceSection() {
 
                             <img
                                 src={TwoWayAudio}
-                                alt="2 Way Audio Setup"
+                                alt="Best car accessories in Coimbatore2"
                                 loading="lazy"
                                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                             />
@@ -106,7 +106,7 @@ function ServiceSection() {
 
                             <img
                                 src={ThreeWayAudio}
-                                alt="3 Way Audio Setup"
+                                alt="Best car accessories in Coimbatore3"
                                 loading="lazy"
                                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                             />
@@ -163,7 +163,7 @@ function ServiceSection() {
 
                             <img
                                 src={AudioInstallation}
-                                alt="Complete Audio Installation"
+                                alt="Best car audio system in Coimbatore1"
                                 loading="lazy"
                                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                             />

@@ -59,10 +59,7 @@ const products = [
     heading: "Advanced Automative Accessories",
     description:
       "Upgrade your driving entertainment with an advanced car audio system in Coimbatore delivering crystal-clear sound quality and powerful bass performance.",
-
     banner: Mainaudio,
-
-
     items: [
       {
         name: "Amplifiers",

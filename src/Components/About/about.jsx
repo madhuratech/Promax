@@ -23,7 +23,7 @@ function AboutSection() {
 
                             <img
                                 src={about}
-                                alt="PROMAX Car Accessories"
+                                alt="Best car accessories in Coimbatore1"
                                 loading="lazy"
                                 className="w-full h-[350px] sm:h-[450px] md:h-[520px] object-cover shadow-2xl rounded-lg"
                             />
